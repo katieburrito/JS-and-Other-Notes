@@ -36,3 +36,6 @@
 ![apply method](images/2023-05-08-9d.png)
 
 ### 5/9/23
+
+screenshot 6:
+immediately invoked fuction expressions- functions used once and never again, "disappears" after called

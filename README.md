@@ -37,5 +37,11 @@
 
 ### 5/9/23
 
-screenshot 6:
-immediately invoked fuction expressions- functions used once and never again, "disappears" after called
+#### Closures
+- a closure is not manually created, it happens automatically in certain situations
+- a function always has access to the variable environment of the execution context in which the content was created
+- closure is the variable environment that follows the function from its creation
+-Closure Definitions
+-a closure is the closed-over VE of the EC in which the function was created, even after the EC is gone
+- a closure ensures that a function doens't lose connection to the variables at it's creation
+- a closure is like a backpack that a function carries wherever it goes. The backpack contains all of the variables that were present in the environment in which the function was created.

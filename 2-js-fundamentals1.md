@@ -40,3 +40,28 @@
 
 - js comparison operators
 ![alt](images/2-js-fundamentals1/2023-03-15l.png)
+
+## 3/16/23
+
+- declare more than one variable at a time by separating with a comma
+![alt](images/2-js-fundamentals1/2023-03-16a.png)
+
+- es6 template literal is text written in backticks, with variables inside curly braces after dollar sign
+![alt](images/2-js-fundamentals1/2023-03-16b.png)
+
+- backticks can be used for all strings, to avoid confustion with regular single or double quotes
+![alt](images/2-js-fundamentals1/2023-03-16c.png)
+
+- standard way to insert a new line return in a string is with a backslash and letter n 1
+![alt](images/2-js-fundamentals1/2023-03-16d.png)
+
+- standard way to insert a new line return in a string is with a backslash and letter n 2
+![alt](images/2-js-fundamentals1/2023-03-16d2.png)
+
+- template literals allow for new line returns in strings by just typing the return directly into the  code 1
+![alt](images/2-js-fundamentals1/2023-03-16e.png)
+
+- template literals allow for new line returns in strings by just typing the return directly into the  code 2
+![alt](images/2-js-fundamentals1/2023-03-16e2.png)
+
+

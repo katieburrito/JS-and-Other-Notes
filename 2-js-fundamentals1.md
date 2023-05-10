@@ -1,3 +1,5 @@
+# Section 2: Javascript Fundamentals- Part 1
+
 - the only symbols permitted in variable names are the dollar sign and underscore
 ![alt](images/2-js-fundamentals1/2023-03-15a.png)
 

@@ -36,39 +36,39 @@
 ![apply method](images/2023-05-08-9d.png)
 
 ### 5/9/23
-2023-05-09-1 call method also takes array as input using the spread operator
+- call method also takes array as input using the spread operator
 ![call method with array input](images/10-functions/2023-05-09-1.png)
 
-2023-05-09-2a bind allows to manually set this keyword meaning in the input, but bind does not immediately call the function, but returns a new function where the this keyword is bound
+- bind allows to manually set this keyword meaning in the input, but bind does not immediately call the function, but returns a new function where the this keyword is bound
 ![bind method](images/10-functions/2023-05-09-2a.png)
 
-2023-05-09-2b after setting the bind method, you can use an internal function that has been pulled out of a higher order function as if it has its own this keyword
+- after setting the bind method, you can use an internal function that has been pulled out of a higher order function as if it has its own this keyword
 ![bind method](images/10-functions/2023-05-09-2b.png)
 
-2023-05-09-3 in the bind method, like in call method, can pass "this" keyword definition, as well as other argument defaults
+- in the bind method, like in call method, can pass "this" keyword definition, as well as other argument defaults
 ![bind method arguments](images/10-functions/2023-05-09-3.png)
 
-2023-05-09-4 to skip adding a this keyword definition with bind method, input null
+- to skip adding a this keyword definition with bind method, input null
 ![null input in bind method](images/10-functions/2023-05-09-4.png)
 
-2023-05-09-5 use call method to reassign answers array referenced in poll object outside of it
+- use call method to reassign answers array referenced in poll object outside of it
 ![call method to reassign an internal array from outside object](images/10-functions/2023-05-09-5.png)
 
-2023-05-09-6 wrapping an unnamed function into parentheses transforms it to an expression, also stops it from running until it is called- call immediately by following with empty parenthesis
+- wrapping an unnamed function into parentheses transforms it to an expression, also stops it from running until it is called- call immediately by following with empty parenthesis
 ![turn function into expression](images/10-functions/2023-05-09-6.png)
 
-2023-05-09-7 IIFE- immediately invoked fuction expressions- functions used once and never again, "disappears" after called
+- IIFE- immediately invoked fuction expressions- functions used once and never again, "disappears" after called
 ![IIFE](images/10-functions/2023-05-09-7.png)
 
-2023-05-09-8 scope reminder- let and const variables declared inside a block are not accessible outside, but var variables are
+- scope reminder- let and const variables declared inside a block are not accessible outside, but var variables are
 ![scope](images/10-functions/2023-05-09-8.png)
 
-2023-05-09-9a console dir gives access to the internal properties of a given function when called on it
+- console dir gives access to the internal properties of a given function when called on it
 ![console dir](images/10-functions/2023-05-09-9a.png)
 
-2023-05-09-9b scopes property show in the console dir contains the closure info and the VE of the function
+- scopes property show in the console dir contains the closure info and the VE of the function
 ![scopes property](images/10-functions/2023-05-09-9b.png)
-2023-05-09-9c double square brackets in console means it is an internal property that cannot be accessed from the code
+- double square brackets in console means it is an internal property that cannot be accessed from the code
 ![double square brackets](images/10-functions/2023-05-09-9c.png)
 
 
@@ -81,13 +81,13 @@
 - a closure ensures that a function doens't lose connection to the variables at it's creation
 - a closure is like a backpack that a function carries wherever it goes. The backpack contains all of the variables that were present in the environment in which the function was created.
 
-2023-05-09-10a you don't need to return a function from another function to create a closure
+- you don't need to return a function from another function to create a closure
 ![closure](images/10-functions/2023-05-09-10a.png)
-2023-05-09-10b reassigning the value of a function variable redefines its VE
+- reassigning the value of a function variable redefines its VE
 ![redefine a functions VE](images/10-functions/2023-05-09-10b.png)
-2023-05-09-11a closure has priority in the scope chain, so this perGroup global variable declared outside the function is overwritten and does not have precidence
+- closure has priority in the scope chain, so this perGroup global variable declared outside the function is overwritten and does not have precidence
 ![closure priority](images/10-functions/2023-05-09-11a.png)
-2023-05-09-11b ...unless the internal perGroup variable is removed
+- ...unless the internal perGroup variable is removed
 ![closure priority](images/10-functions/2023-05-09-11b.png)
 
 - Note: console dir display is different in firefox than in chrome. these views are from chrome

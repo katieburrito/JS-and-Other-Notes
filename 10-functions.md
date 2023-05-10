@@ -1,4 +1,4 @@
-# FUNCTIONS
+# Section 10: A Closer Look at Functions
 
 ## 5/8/23
 

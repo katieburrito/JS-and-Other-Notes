@@ -37,39 +37,39 @@
 
 ### 5/9/23
 2023-05-09-1 call method also takes array as input using the spread operator
-![alt](images/2023-05.png)
+![call method with array input](images/2023-05.png)
 
 2023-05-09-2a bind allows to manually set this keyword meaning in the input, but bind does not immediately call the function, but returns a new function where the this keyword is bound
-![alt](images/2023-05.png)
+![bind method](images/2023-05.png)
 
 2023-05-09-2b after setting the bind method, you can use an internal function that has been pulled out of a higher order function as if it has its own this keyword
-![alt](images/2023-05.png)
+![bind method](images/2023-05.png)
 
 2023-05-09-3 in the bind method, like in call method, can pass "this" keyword definition, as well as other argument defaults
-![alt](images/2023-05.png)
+![bind method arguments](images/2023-05.png)
 
 2023-05-09-4 to skip adding a this keyword definition with bind method, input null
-![alt](images/2023-05.png)
+![null input in bind method](images/2023-05.png)
 
 2023-05-09-5 use call method to reassign answers array referenced in poll object outside of it
-![alt](images/2023-05.png)
+![call method to reassign an internal array from outside object](images/2023-05.png)
 
 2023-05-09-6 wrapping an unnamed function into parentheses transforms it to an expression, also stops it from running until it is called- call immediately by following with empty parenthesis
-![alt](images/2023-05.png)
+![turn function into expression](images/2023-05.png)
 
 2023-05-09-7 IIFE- immediately invoked fuction expressions- functions used once and never again, "disappears" after called
-![alt](images/2023-05.png)
+![IIFE](images/2023-05.png)
 
 2023-05-09-8 scope reminder- let and const variables declared inside a block are not accessible outside, but var variables are
-![alt](images/2023-05.png)
+![scope](images/2023-05.png)
 
 2023-05-09-9a console dir gives access to the internal properties of a given function when called on it
-![alt](images/2023-05.png)
+![console dir](images/2023-05.png)
 
 2023-05-09-9b scopes property show in the console dir contains the closure info and the VE of the function
-![alt](images/2023-05.png)
+![scopes property](images/2023-05.png)
 2023-05-09-9c double square brackets in console means it is an internal property that cannot be accessed from the code
-![alt](images/2023-05.png)
+![double square brackets](images/2023-05.png)
 
 
 #### Closures
@@ -82,11 +82,11 @@
 - a closure is like a backpack that a function carries wherever it goes. The backpack contains all of the variables that were present in the environment in which the function was created.
 
 2023-05-09-10a you don't need to return a function from another function to create a closure
-![alt](images/2023-05.png)
+![closure](images/2023-05.png)
 2023-05-09-10b reassigning the value of a function variable redefines its VE
-![alt](images/2023-05.png)
+![redefine a functions VE](images/2023-05.png)
 2023-05-09-11a closure has priority in the scope chain, so this perGroup global variable declared outside the function is overwritten and does not have precidence
-![alt](images/2023-05.png)
+![](images/2023-05.png)
 2023-05-09-11b ...unless the internal perGroup variable is removed
 ![alt](images/2023-05.png)
 

@@ -1,8 +1,6 @@
-# JS-Notes
+# FUNCTIONS
 
-## FUNCTIONS
-
-### 5/8/23
+## 5/8/23
 
 - Use defualt values of other parameters set before a parameter in its default (like a variable):
 ![default parameter values](images/10-functions/2023-05-08-1.png)
@@ -35,7 +33,7 @@
 - apply method does not receive a list of arguments like call does but instead the this keyword reference and then an array
 ![apply method](images/10-functions/2023-05-08-9d.png)
 
-### 5/9/23
+## 5/9/23
 - call method also takes array as input using the spread operator
 ![call method with array input](images/10-functions/2023-05-09-1.png)
 

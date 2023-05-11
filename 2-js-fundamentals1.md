@@ -95,29 +95,27 @@
 - js type coercion can also happen with the automatic conversion of a string to a number with the minus sign, which assumes math, also true for other math operators except plus
 ![alt](images/2-js-fundamentals1/2023-03-24g2.png)
 
-2023-03-24h however with a plus sign, js coercion assumes a concatenated string and converts the number to part of the string 1
-![alt](images/2-js-fundamentals1/2023-03-24.png)
+- however with a plus sign, js coercion assumes a concatenated string and converts the number to part of the string 1
+![alt](images/2-js-fundamentals1/2023-03-24h.png)
+![alt](images/2-js-fundamentals1/2023-03-24h2.png)
 
-2023-03-24h however with a plus sign, js coercion assumes a concatenated string and converts the number to part of the string 2
-![alt](images/2-js-fundamentals1/2023-03-24.png)
+- with plus sign, number strings are concatenated, but then coerced to numbers with minus sign
+![alt](images/2-js-fundamentals1/2023-03-24i.png)
 
-2023-03-24i with plus sign, number strings are concatenated, but then coerced to numbers with minus sign
-![alt](images/2-js-fundamentals1/2023-03-24.png)
+- 2+3+4 are numbers, but the y are concatenated to the string number following the plus sign
+![alt](images/2-js-fundamentals1/2023-03-24j.png)
 
-2023-03-24j 2+3+4 are numbers, but the y are concatenated to the string number following the plus sign
-![alt](images/2-js-fundamentals1/2023-03-24.png)
+- with minus sign, string numbers are converted to numbers and added, but then the string number following the plus sign is concatenated to end
+![alt](images/2-js-fundamentals1/2023-03-24k.png)
 
-2023-03-24k with minus sign, string numbers are converted to numbers and added, but then the string number following the plus sign is concatenated to end
-![alt](images/2-js-fundamentals1/2023-03-24.png)
+- there are only 5 falsey values, in addition to the word false, everything else is truthy
+![alt](images/2-js-fundamentals1/2023-03-24l.png)
 
-2023-03-24l there are only 5 falsey values, in addition to the word false, everything else is truthy
-![alt](images/2-js-fundamentals1/2023-03-24.png)
+- only empty strings are falsey, any other string is truthy, empty objects are also truthy
+![alt](images/2-js-fundamentals1/2023-03-24m.png)
 
-2023-03-24m only empty strings are falsey, any other string is truthy, empty objects are also truthy
-![alt](images/2-js-fundamentals1/2023-03-24.png)
+- usually js boolean coercions are automatic and implicit, for example with a conditional statement
+![alt](images/2-js-fundamentals1/2023-03-24n.png)
 
-2023-03-24n usually js boolean coercions are automatic and implicit, for example with a conditional statement
-![alt](images/2-js-fundamentals1/2023-03-24.png)
-
-2023-03-24o with double equal comparison operator, js is looking for loose equality and will perform type coercion to compare, with triple equal, it is strict and will not perform type coercion
-![alt](images/2-js-fundamentals1/2023-03-24.png)
+- with double equal comparison operator, js is looking for loose equality and will perform type coercion to compare, with triple equal, it is strict and will not perform type coercion
+![alt](images/2-js-fundamentals1/2023-03-24o.png)

@@ -119,3 +119,6 @@
 
 - with double equal comparison operator, js is looking for loose equality and will perform type coercion to compare, with triple equal, it is strict and will not perform type coercion
 ![alt](images/2-js-fundamentals1/2023-03-24o.png)
+
+- when setting up a switch statement, each case must be followed by a break, and the last case, the default functions like the else statement, combine more than one case by listing them consecutively
+![alt](images/2-js-fundamentals1/2023-03-29a.png)

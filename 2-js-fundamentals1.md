@@ -52,7 +52,7 @@
 - backticks can be used for all strings, to avoid confustion with regular single or double quotes
 ![alt](images/2-js-fundamentals1/2023-03-16c.png)
 
-- standard way to insert a new line return in a string is with a backslash and letter n 1
+- standard way to insert a new line return in a string is with a backslash and letter n
 ![alt](images/2-js-fundamentals1/2023-03-16d.png)
 ![alt](images/2-js-fundamentals1/2023-03-16d2.png)
 
@@ -65,16 +65,16 @@
 2023-03-24a for variable determined inside conditional code block to be accessible outside, it must first be declared outside
 ![alt](images/2-js-fundamentals1/2023-03-24a.png)
 
-2023-03-24b html form input would collect a year as a text string, so convert to number with Number method, so output with method is number and without is string 1
+2023-03-24b html form input would collect a year as a text string, so convert to number with Number method, so output with method is number and without is string
 ![alt](images/2-js-fundamentals1/2023-03-24b.png)
 
-2023-03-24b html form input would collect a year as a text string, so convert to number with Number method, so output with method is number and without is string 2
+2023-03-24b html form input would collect a year as a text string, so convert to number with Number method, so output with method is number and without is string
 ![alt](images/2-js-fundamentals1/2023-03-24b2.png)
 
-2023-03-24c if you try to convert a string that doesn't contain a number, the output is NaN- not a number- an invalid number 1
+2023-03-24c if you try to convert a string that doesn't contain a number, the output is NaN- not a number- an invalid number
 ![alt](images/2-js-fundamentals1/2023-03-24c.png)
 
-2023-03-24c if you try to convert a string that doesn't contain a number, the output is NaN- not a number- an invalid number 2
+2023-03-24c if you try to convert a string that doesn't contain a number, the output is NaN- not a number- an invalid number
 ![alt](images/2-js-fundamentals1/2023-03-24c2.png)
 
 2023-03-24d convert a number to a string with capitalized String method
@@ -83,16 +83,16 @@
 2023-03-24e type conversion methods
 ![alt](images/2-js-fundamentals1/2023-03-24e.png)
 
-2023-03-24f type coercion happens when the js makes the type conversion automatically, ex a number converted to a string 1
+2023-03-24f type coercion happens when the js makes the type conversion automatically, ex a number converted to a string
 ![alt](images/2-js-fundamentals1/2023-03-24f.png)
 
-2023-03-24f type coercion happens when the js makes the type conversion automatically, ex a number converted to a string 2
+2023-03-24f type coercion happens when the js makes the type conversion automatically, ex a number converted to a string
 ![alt](images/2-js-fundamentals1/2023-03-24f2.png)
 
-2023-03-24g js type coercion can also happen with the automatic conversion of a string to a number with the minus sign, which assumes math, also true for other math operators except plus 1
+2023-03-24g js type coercion can also happen with the automatic conversion of a string to a number with the minus sign, which assumes math, also true for other math operators except plus
 ![alt](images/2-js-fundamentals1/2023-03-24g.png)
 
-2023-03-24g js type coercion can also happen with the automatic conversion of a string to a number with the minus sign, which assumes math, also true for other math operators except plus 2
+2023-03-24g js type coercion can also happen with the automatic conversion of a string to a number with the minus sign, which assumes math, also true for other math operators except plus
 ![alt](images/2-js-fundamentals1/2023-03-24g2.png)
 
 

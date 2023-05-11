@@ -62,37 +62,62 @@
 
 ## 3/24/23
 
-2023-03-24a for variable determined inside conditional code block to be accessible outside, it must first be declared outside
+- for variable determined inside conditional code block to be accessible outside, it must first be declared outside
 ![alt](images/2-js-fundamentals1/2023-03-24a.png)
 
-2023-03-24b html form input would collect a year as a text string, so convert to number with Number method, so output with method is number and without is string
+- html form input would collect a year as a text string, so convert to number with Number method, so output with method is number and without is string
 ![alt](images/2-js-fundamentals1/2023-03-24b.png)
 
-2023-03-24b html form input would collect a year as a text string, so convert to number with Number method, so output with method is number and without is string
+- html form input would collect a year as a text string, so convert to number with Number method, so output with method is number and without is string
 ![alt](images/2-js-fundamentals1/2023-03-24b2.png)
 
-2023-03-24c if you try to convert a string that doesn't contain a number, the output is NaN- not a number- an invalid number
+- if you try to convert a string that doesn't contain a number, the output is NaN- not a number- an invalid number
 ![alt](images/2-js-fundamentals1/2023-03-24c.png)
 
-2023-03-24c if you try to convert a string that doesn't contain a number, the output is NaN- not a number- an invalid number
+- if you try to convert a string that doesn't contain a number, the output is NaN- not a number- an invalid number
 ![alt](images/2-js-fundamentals1/2023-03-24c2.png)
 
-2023-03-24d convert a number to a string with capitalized String method
+- convert a number to a string with capitalized String method
 ![alt](images/2-js-fundamentals1/2023-03-24d.png)
 
-2023-03-24e type conversion methods
+- type conversion methods
 ![alt](images/2-js-fundamentals1/2023-03-24e.png)
 
-2023-03-24f type coercion happens when the js makes the type conversion automatically, ex a number converted to a string
+- type coercion happens when the js makes the type conversion automatically, ex a number converted to a string
 ![alt](images/2-js-fundamentals1/2023-03-24f.png)
 
-2023-03-24f type coercion happens when the js makes the type conversion automatically, ex a number converted to a string
+- type coercion happens when the js makes the type conversion automatically, ex a number converted to a string
 ![alt](images/2-js-fundamentals1/2023-03-24f2.png)
 
-2023-03-24g js type coercion can also happen with the automatic conversion of a string to a number with the minus sign, which assumes math, also true for other math operators except plus
+- js type coercion can also happen with the automatic conversion of a string to a number with the minus sign, which assumes math, also true for other math operators except plus
 ![alt](images/2-js-fundamentals1/2023-03-24g.png)
 
-2023-03-24g js type coercion can also happen with the automatic conversion of a string to a number with the minus sign, which assumes math, also true for other math operators except plus
+- js type coercion can also happen with the automatic conversion of a string to a number with the minus sign, which assumes math, also true for other math operators except plus
 ![alt](images/2-js-fundamentals1/2023-03-24g2.png)
 
+2023-03-24h however with a plus sign, js coercion assumes a concatenated string and converts the number to part of the string 1
+![alt](images/2-js-fundamentals1/2023-03-24.png)
 
+2023-03-24h however with a plus sign, js coercion assumes a concatenated string and converts the number to part of the string 2
+![alt](images/2-js-fundamentals1/2023-03-24.png)
+
+2023-03-24i with plus sign, number strings are concatenated, but then coerced to numbers with minus sign
+![alt](images/2-js-fundamentals1/2023-03-24.png)
+
+2023-03-24j 2+3+4 are numbers, but the y are concatenated to the string number following the plus sign
+![alt](images/2-js-fundamentals1/2023-03-24.png)
+
+2023-03-24k with minus sign, string numbers are converted to numbers and added, but then the string number following the plus sign is concatenated to end
+![alt](images/2-js-fundamentals1/2023-03-24.png)
+
+2023-03-24l there are only 5 falsey values, in addition to the word false, everything else is truthy
+![alt](images/2-js-fundamentals1/2023-03-24.png)
+
+2023-03-24m only empty strings are falsey, any other string is truthy, empty objects are also truthy
+![alt](images/2-js-fundamentals1/2023-03-24.png)
+
+2023-03-24n usually js boolean coercions are automatic and implicit, for example with a conditional statement
+![alt](images/2-js-fundamentals1/2023-03-24.png)
+
+2023-03-24o with double equal comparison operator, js is looking for loose equality and will perform type coercion to compare, with triple equal, it is strict and will not perform type coercion
+![alt](images/2-js-fundamentals1/2023-03-24.png)

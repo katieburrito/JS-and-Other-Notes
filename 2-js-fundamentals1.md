@@ -60,4 +60,39 @@
 ![alt](images/2-js-fundamentals1/2023-03-16e.png)
 ![alt](images/2-js-fundamentals1/2023-03-16e2.png)
 
+## 3/24/23
+
+2023-03-24a for variable determined inside conditional code block to be accessible outside, it must first be declared outside
+![alt](images/2-js-fundamentals1/2023-03-24a.png)
+
+2023-03-24b html form input would collect a year as a text string, so convert to number with Number method, so output with method is number and without is string 1
+![alt](images/2-js-fundamentals1/2023-03-24b.png)
+
+2023-03-24b html form input would collect a year as a text string, so convert to number with Number method, so output with method is number and without is string 2
+![alt](images/2-js-fundamentals1/2023-03-24b2.png)
+
+2023-03-24c if you try to convert a string that doesn't contain a number, the output is NaN- not a number- an invalid number 1
+![alt](images/2-js-fundamentals1/2023-03-c.png)
+
+2023-03-24c if you try to convert a string that doesn't contain a number, the output is NaN- not a number- an invalid number 2
+![alt](images/2-js-fundamentals1/2023-03-c2.png)
+
+2023-03-24d convert a number to a string with capitalized String method
+![alt](images/2-js-fundamentals1/2023-03-d.png)
+
+2023-03-24e type conversion methods
+![alt](images/2-js-fundamentals1/2023-03-e.png)
+
+2023-03-24f type coercion happens when the js makes the type conversion automatically, ex a number converted to a string 1
+![alt](images/2-js-fundamentals1/2023-03-f.png)
+
+2023-03-24f type coercion happens when the js makes the type conversion automatically, ex a number converted to a string 2
+![alt](images/2-js-fundamentals1/2023-03-f2.png)
+
+2023-03-24g js type coercion can also happen with the automatic conversion of a string to a number with the minus sign, which assumes math, also true for other math operators except plus 1
+![alt](images/2-js-fundamentals1/2023-03-g.png)
+
+2023-03-24g js type coercion can also happen with the automatic conversion of a string to a number with the minus sign, which assumes math, also true for other math operators except plus 2
+![alt](images/2-js-fundamentals1/2023-03-g2.png)
+
 

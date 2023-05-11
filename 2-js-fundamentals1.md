@@ -11,10 +11,10 @@
 - the seven primitive js data types, the type is assigned to the value, not the variable, variables just store the value, so a variable can change to a value that has a different data type
 ![alt](images/2-js-fundamentals1/2023-03-15c.png)
 
-- only let variables can be undefined or empty value, not const variables, default to using const to avoid bugs with unexpected code changes, unless you're certain its value will need to change in the code 1
+- only let variables can be undefined or empty value, not const variables, default to using const to avoid bugs with unexpected code changes, unless you're certain its value will need to change in the code
 ![alt](images/2-js-fundamentals1/2023-03-15d.png)
 
-- only let variables can be undefined or empty value, not const variables, default to using const to avoid bugs with unexpected code changes, unless you're certain its value will need to change in the code 2
+- only let variables can be undefined or empty value, not const variables, default to using const to avoid bugs with unexpected code changes, unless you're certain its value will need to change in the code
 ![alt](images/2-js-fundamentals1/2023-03-15d2.png)
 
 - var variables are not commonly used currently, but good to know for legacy code, similar to let, but different scope
@@ -72,27 +72,27 @@
 ![alt](images/2-js-fundamentals1/2023-03-24b2.png)
 
 2023-03-24c if you try to convert a string that doesn't contain a number, the output is NaN- not a number- an invalid number 1
-![alt](images/2-js-fundamentals1/2023-03-c.png)
+![alt](images/2-js-fundamentals1/2023-03-24c.png)
 
 2023-03-24c if you try to convert a string that doesn't contain a number, the output is NaN- not a number- an invalid number 2
-![alt](images/2-js-fundamentals1/2023-03-c2.png)
+![alt](images/2-js-fundamentals1/2023-03-24c2.png)
 
 2023-03-24d convert a number to a string with capitalized String method
-![alt](images/2-js-fundamentals1/2023-03-d.png)
+![alt](images/2-js-fundamentals1/2023-03-24d.png)
 
 2023-03-24e type conversion methods
-![alt](images/2-js-fundamentals1/2023-03-e.png)
+![alt](images/2-js-fundamentals1/2023-03-24e.png)
 
 2023-03-24f type coercion happens when the js makes the type conversion automatically, ex a number converted to a string 1
-![alt](images/2-js-fundamentals1/2023-03-f.png)
+![alt](images/2-js-fundamentals1/2023-03-24f.png)
 
 2023-03-24f type coercion happens when the js makes the type conversion automatically, ex a number converted to a string 2
-![alt](images/2-js-fundamentals1/2023-03-f2.png)
+![alt](images/2-js-fundamentals1/2023-03-24f2.png)
 
 2023-03-24g js type coercion can also happen with the automatic conversion of a string to a number with the minus sign, which assumes math, also true for other math operators except plus 1
-![alt](images/2-js-fundamentals1/2023-03-g.png)
+![alt](images/2-js-fundamentals1/2023-03-24g.png)
 
 2023-03-24g js type coercion can also happen with the automatic conversion of a string to a number with the minus sign, which assumes math, also true for other math operators except plus 2
-![alt](images/2-js-fundamentals1/2023-03-g2.png)
+![alt](images/2-js-fundamentals1/2023-03-24g2.png)
 
 

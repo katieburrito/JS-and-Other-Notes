@@ -41,3 +41,9 @@
 ![alt](images/11-arrays/2023-05-11-1.png)
 
 ## 5/12/23
+
+- map method is like for each loop, but creates a new array based on the original array, usually with some operation applied to each original array element
+
+- filter method searches the original array for elements that satisfy a particular condition and puts them into a new array
+
+- reduce method combines all values of original array into one single value, ex by adding all numbers together, or another operation, no new array, only the reduced value

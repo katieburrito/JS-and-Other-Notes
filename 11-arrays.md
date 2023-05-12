@@ -42,8 +42,13 @@
 
 ## 5/12/23
 
-- map method is like for each loop, but creates a new array based on the original array, usually with some operation applied to each original array element
+- map method is like for each loop, but takes a function as an input that creates a new array based on the original array, usually with some operation applied to each original array element
+- ![alt](images/11-arrays/2023-05-12-1.png)
 
 - filter method searches the original array for elements that satisfy a particular condition and puts them into a new array
 
 - reduce method combines all values of original array into one single value, ex by adding all numbers together, or another operation, no new array, only the reduced value
+
+- like for each, map method has access to same 3 parameters- current element, current index, and entire array
+
+- using a method instead of a loop (ex a filter method instead of a for of loop with if statements inside) allows for chaining of methods, so you can condense the code more easily

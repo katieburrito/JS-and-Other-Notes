@@ -1,6 +1,6 @@
 # Arrays
 
-# 5/11/23
+## 5/11/23
 
 - call the slice method on an array without any indexes to create a shallow copy, like using the spread operator
 ![alt](images/11-arrays/2023-05-11-1.png)
@@ -39,3 +39,5 @@
 
 - insertAdjacentHTML takes 2 string inputs- first the position at which to attach the html, second is the string of the html to be inserted
 ![alt](images/11-arrays/2023-05-11-1.png)
+
+## 5/12/23

@@ -52,3 +52,5 @@
 - like for each, map method has access to same 3 parameters- current element, current index, and entire array
 
 - using a method instead of a loop (ex a filter method instead of a for of loop with if statements inside) allows for chaining of methods, so you can condense the code more easily
+
+- unlike other methods that take the current element, the current index, and the entire array as their parameters, the reduce method takes the accumulator as its first parameter before the other three parameters

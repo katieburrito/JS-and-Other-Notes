@@ -22,9 +22,6 @@
 - to set js to strict mode, use strict must be the first line of code in the file, only comments can come before because they'll be ignored, strict mode makes it easier to avoid accidental errors
 ![alt](images/03-js-fundamentals2/2023-03-31-6.png)
 
-- the part between the curly braces in a function is called the function body
-![alt](images/03-js-fundamentals2/2023-03-31-7.png)
-
 - the process of using a function is colled invoking, calling, or running the function
 ![alt](images/03-js-fundamentals2/2023-03-31-8.png)
 

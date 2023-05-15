@@ -3,9 +3,8 @@
 ## 3/31/23
 
 - expressions produce a value, while statement declarations do not, statements are usually larger pieces of code that get executed
+- statement declaration is like a complete sentence, and expressions are like the words
 ![alt](images/03-js-fundamentals2/2023-03-31-1.png)
-
-2023-03-31b 2 statement declaration is like a complete sentence, and expressions are like the words
 
 - expressions produce values, statements produce actions
 ![alt](images/03-js-fundamentals2/2023-03-31-2.png)

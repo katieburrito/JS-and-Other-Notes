@@ -67,5 +67,42 @@
 - calling the indexOf method on an element not included in an array returns neg 1
 ![alt](images/03-js-fundamentals2/2023-03-31-23.png)
 
+## 4/3/23
+
+2023-04-03 1 js object ex, w key - aka property- and value pairs, like an array, but with can identify the items contained without just referencing index number, this version of object is called object-literal syntax bc all clearly defined
+![alt](images/03-js-fundamentals2/2023-03-31-.png)
+
+2023-04-03 2 pull data from an array using either dot followed by key property or square brackets with key property in quotes
+![alt](images/03-js-fundamentals2/2023-03-31-.png)
+
+2023-04-03 3 with the bracket method of obtaining values, you can also construct an expression, ex with concatenation or template literal rather than just explicitly writing the key property string as in the dot method
+![alt](images/03-js-fundamentals2/2023-03-31-.png)
+
+2023-04-03 4 the brackets can also be used to access info that isn't yet determined, while the dot would look for a literal property of the same name in the object, rather than the variable equivalent
+![alt](images/03-js-fundamentals2/2023-03-31-.png)
+
+2023-04-03 5 both dot and square brackets can be used to add key value pairs to an object
+![alt](images/03-js-fundamentals2/2023-03-31-.png)
+
+2023-04-03 6 expression function can be stored as key value pair inside an object, with function name as key property and function body as value
+![alt](images/03-js-fundamentals2/2023-03-31-.png)
+
+2023-04-03 7 insert arguments to functions within objects by placing the parenthesis outside of the square brackets with the key property function name
+![alt](images/03-js-fundamentals2/2023-03-31-.png)
+
+2023-04-03 8a the this variable equals the object that calls the method, in this case the jonas object calls the method from the console log, so the this keyword refers to the jonas object
+![alt](images/03-js-fundamentals2/2023-03-31-.png)
+
+2023-04-03 8b the this keyword variable allows you to access an object from a function inside that object, the this keyword refers to the object calling the method
+![alt](images/03-js-fundamentals2/2023-03-31-.png)
+
+2023-04-03 8c for arguments that are already part of the object, do not repeat, instead include it in the return using the this keyword variable
+![alt](images/03-js-fundamentals2/2023-03-31-.png)
+
+2023-04-03 8d you could replace the this keyword with the actual name of the object, and it would work, but that violates the DRY method, which could break the code in the future
+![alt](images/03-js-fundamentals2/2023-03-31-.png)
+
+2023-04-03 9 in the case where the result of the function in an object might need to be used more than once in the code, it helps to then store it in a new key value pair in the function, here that is age property
+![alt](images/03-js-fundamentals2/2023-03-31-.png)
 
 

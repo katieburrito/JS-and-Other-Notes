@@ -19,17 +19,25 @@
 
 ## 04/06/23
 
-2023-04-06 1a query selector only targets the first item in the document that matches the search, not all of them
+- query selector only targets the first item in the document that matches the search, not all of them
 ![alt](images/07-js-in-browser/2023-04-06-1a.png)
 
-2023-04-06 1b instead search for all of an item to access the node list of the items, which is similar to though not exactly like an array
+- instead search for all of an item to access the node list of the items, which is similar to though not exactly like an array
 ![alt](images/07-js-in-browser/2023-04-06-1b.png)
 
-2023-04-06 2 when accessing the class list of an element from js, do not put dot in front of class name because it is already known to be a class name based on the classlist method
+- when accessing the class list of an element from js, do not put dot in front of class name because it is already known to be a class name based on the classlist method
 ![alt](images/07-js-in-browser/2023-04-06-2.png)
 
-2023-04-06 3 when an event calls a function, do not follow the function name with parenthesis in the event argument second input, or it will be called immediately upon rendering the page instead of on event
+- when an event calls a function, do not follow the function name with parenthesis in the event argument second input, or it will be called immediately upon rendering the page instead of on event
 ![alt](images/07-js-in-browser/2023-04-06-3.png)
 
-2023-04-06 4 global events, like keyboard events, add listener to entire document
+- global events, like keyboard events, add listener to entire document
 ![alt](images/07-js-in-browser/2023-04-06-4.png)
+
+## 04/11/23
+
+- the js img src property can be applied directly to the element for whose html attribute you intend to modify, instead of setting the src attribute
+![alt](images/07-js-in-browser/2023-04-11-1.png)
+
+- declare multiple variables at once by separating with comma, here they are declared globally ,outside of the function in which they are first assigned, so that they'll be available to other parts of the code as well
+![alt](images/07-js-in-browser/2023-04-11-2.png)

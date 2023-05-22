@@ -4,7 +4,7 @@
 
 ### 4/13/23
 2023-04-13 1 destructure an array buy setting the variables you'd like to assign to each item in array equal to the array itself, note original array is still intact and accessible as well
-![alt](.images/09-data-structures/0901-destructuring/2023-04-13-1.png)
+![alt](./images/09-data-structures/0901-destructuring/2023-04-13-1.png)
 
 2023-04-13 2 array items are matched to variables in order, skip an item by leaving a blank between commas
 ![alt](images/09-data-structures/0901-destructuring/2023-04-13-2.png)

@@ -58,4 +58,8 @@
 - pass the initial value of the accumulator into the reduce input, after the function
 - ![alt](images/11-arrays/2023-05-12-2.png)
 
+## 5/22/23
+
+- Methods can be chained together as long as the method returns a new array (ex: filter, map methods) for the next method in the chain to use. 
+- No other method can follow reduce method because its output is not a new array/
 

@@ -62,4 +62,8 @@
 
 - Methods can be chained together as long as the method returns a new array (ex: filter, map methods) for the next method in the chain to use. 
 - No other method can follow reduce method because its output is not a new array/
+- The problem with chaining methods is that it is difficult to tell which step produces a bug when it doesn't work as expected.
 
+- use the array parameter that comes with the method to log the entire array when looking for a bug
+- the logged array will be the current step's array, meaning the array that was the output of the previous step's method
+![alt](images/11-arrays/2023-05-22-1.png)

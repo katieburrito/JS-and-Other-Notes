@@ -67,3 +67,6 @@
 - use the array parameter that comes with the method to log the entire array when looking for a bug
 - the logged array will be the current step's array, meaning the array that was the output of the previous step's method
 ![alt](images/11-arrays/2023-05-22-1.png)
+
+- Be careful not to overuse chaining. For really large arrays, to continually produce and cycle through new arrays in the chain can create performance issues. For large arrays, try to compress into as few methods as possible.
+- Bad practice in js to chain methods that mutate the original array (ex: splice, reverse).

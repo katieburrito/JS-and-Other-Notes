@@ -48,8 +48,8 @@
 2023-04-13 10b destructure nested objects and rename the variables
 ![alt](../images/09-data-structures/0901-destructuring/2023-04-13-10b.png)
 
-2023-04-13 12 define default values within the object parameters, in case the argument does not have an assigned value
-![alt](../images/09-data-structures/0901-destructuring/2023-04-13-12.png)
+2023-04-13 11 define default values within the object parameters, in case the argument does not have an assigned value
+![alt](../images/09-data-structures/0901-destructuring/2023-04-13-11.png)
 
-2023-04-13 13 the spread operator, written with three ellipsis dots, allows you to expand an array into all of its elements at once, instead of doing it manually, can then insert into new array, or access the entire array contents outside of the array
-![alt](../images/09-data-structures/0901-destructuring/2023-04-13-13.png)
+2023-04-13 12 the spread operator, written with three ellipsis dots, allows you to expand an array into all of its elements at once, instead of doing it manually, can then insert into new array, or access the entire array contents outside of the array
+![alt](../images/09-data-structures/0901-destructuring/2023-04-13-12.png)

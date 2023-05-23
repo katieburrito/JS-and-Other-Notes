@@ -26,3 +26,30 @@
 
 - or destructure nested array at same time as parent array with additional square brackets
 ![alt](../images/09-data-structures/0901-destructuring/2023-04-13-5b.png)
+
+2023-04-13 6 assign default values to destructed array variables before equating them to the array, so that in the case that there is no matching array item, it does not just equal undefined
+![alt](../images/09-data-structures/0901-destructuring/2023-04-13-6a.png)
+
+2023-04-13 6 unlike destructuring arrays, in objects, order doesn't matter, so you don't need to leave blanks with commas to skip parts, instead specify the property keys as the variables
+![alt](../images/09-data-structures/0901-destructuring/2023-04-13-6b.png)
+
+2023-04-13 7 to change the variable names of object items, reference the property names first followed by a colon and the new name, this is especially useful when using 3rd party data, like from APIs
+![alt](../images/09-data-structures/0901-destructuring/2023-04-13-7.png)
+
+2023-04-13 8 like with arrays, you can assign default values for the variables, in case a desired property is not in the original object to avoid undefined result, combine rename with default with colon and equals sign
+![alt](../images/09-data-structures/0901-destructuring/2023-04-13-8.png)
+
+2023-04-13 9 cant start w const bc changing values, nor let bc the let is already declared before for a and b, cant start a line w curly braces bc js expects a code block, so wrap all in parenthesis when mutating variables in an object
+![alt](../images/09-data-structures/0901-destructuring/2023-04-13-9.png)
+
+2023-04-13 10a destructure nested objects
+![alt](../images/09-data-structures/0901-destructuring/2023-04-13-10a.png)
+
+2023-04-13 10b destructure nested objects and rename the variables
+![alt](../images/09-data-structures/0901-destructuring/2023-04-13-10b.png)
+
+2023-04-13 12 define default values within the object parameters, in case the argument does not have an assigned value
+![alt](../images/09-data-structures/0901-destructuring/2023-04-13-12.png)
+
+2023-04-13 13 the spread operator, written with three ellipsis dots, allows you to expand an array into all of its elements at once, instead of doing it manually, can then insert into new array, or access the entire array contents outside of the array
+![alt](../images/09-data-structures/0901-destructuring/2023-04-13-13.png)

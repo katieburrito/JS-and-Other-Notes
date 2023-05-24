@@ -24,3 +24,24 @@
 
 - spread operator can also be used to copy objects, and then modify if needed, order of items does not matter, changing copy does not change original
 ![alt](../images/09-data-structures/0901-destructuring/2023-04-13-19.png)
+
+2023-04-13 20 spread vs rest behavior determined by which side of assignment operator they appear, rest element must be last listed
+![alt](../images/09-data-structures/0901-destructuring/2023-04-13-20.png)
+
+2023-04-13 21 rest pattern is also three ellipsis dots like spread operator, but with reverse behavior- collects multiple elements and combines into array, called rest because it takes the rest of the remaining elements not explicitly selected
+![alt](../images/09-data-structures/0901-destructuring/2023-04-13-21.png)
+
+2023-04-13 22 assigning spread operator on right to variables declared by rest operator, rest operator collects all elements after last specifically stated, not those before or between, in this case the skipped pasta from main menu
+![alt](../images/09-data-structures/0901-destructuring/2023-04-13-22.png)
+
+2023-04-13 23 using rest operator in objects
+![alt](../images/09-data-structures/0901-destructuring/2023-04-13-23.png)
+
+2023-04-13 24 instead of specifying multiple arguments when calling a function, use rest arguments to combine them first, then call the function on the one whole argument that includes all of the individual items
+![alt](../images/09-data-structures/0901-destructuring/2023-04-13-24.png)
+
+2023-04-13 25 using rest to collect function arguments, when there is nothing for the rest parameter, it returns undefined
+![alt](../images/09-data-structures/0901-destructuring/2023-04-13-25.png)
+
+2023-04-13 26 spread operator is used where we would otherwise write values separated by a comma, rest operator is used where we would otherwise write variable names separated by a comma
+![alt](../images/09-data-structures/0901-destructuring/2023-04-13-26.png)

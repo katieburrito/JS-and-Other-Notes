@@ -5,7 +5,7 @@
 ### 4/13/23
 
 2023-04-13 11 for functions with a lot of parameters, you can pass an object into the function, and the function will destructure the object automatically
-![alt](../images/09-data-structures/0901-destructuring/2023-04-13-11.png)
+![alt](../images/09-data-structures/0901-destructuring/2023-04-13-12.png)
 
 2023-04-13 14 the spread operator is similar to destructuring an array, but does not assign to variables, and can only be used in places where values would be comma-separated
 ![alt](../images/09-data-structures/0901-destructuring/2023-04-13-14.png)

@@ -87,3 +87,7 @@
 - use find method to retrieve one element of an array based on a condition
 - find method accepts a condition and callback function as inputs, then loops over array with the inputs
 - find method only returns the first element in the array that meets the condition, not a new array
+
+- prevent default method on an event will prevent its default behavior, in this case a submit button would normally reload the page, so prevent it
+![alt](images/11-arrays/2023-05-26-1.png)
+- a user hitting enter while the focus is in either the user or pin text input boxes will also trigger the click event

@@ -93,4 +93,9 @@
 - a user hitting enter while the focus is in either the user or pin text input boxes will also trigger the click event
 
 - because assignment operator works from right to left, to set two different variables to the same value, can set them equal to each other with the new value last (to the right) and both will be reassigned in the same line of code
-- ![alt](images/11-arrays/2023-05-26-2.png)
+![alt](images/11-arrays/2023-05-26-2.png)
+
+- blur method removes focus from current selected element, in this case the pin input field
+![alt](images/11-arrays/2023-05-26-3.png)
+
+

@@ -2,24 +2,30 @@
 
 ## 5/11/23
 
+#### Slice Method
 - call the slice method on an array without any indexes to create a shallow copy, like using the spread operator
 ![alt](images/11-arrays/2023-05-11-1.png)
 
+#### Splice Method
 - splice method works like slice, but it DOES change the original array by removing whatever is spliced out, while slice does not change the original
 ![alt](images/11-arrays/2023-05-11-1.png)
 
+#### Reverse Method
 - reverse method mutates original array when reversing
 ![alt](images/11-arrays/2023-05-11-1.png)
 
+#### Concat Method
 - concat method works like spread operator to combine more than one array and also does not mutate the originals
 ![alt](images/11-arrays/2023-05-11-1.png)
 
+#### At Method
 - the at method works like retrieving an array item or string character by its index
 ![alt](images/11-arrays/2023-05-11-1.png)
 
 - the at method is useful instead of brackets for getting last item in an array of unknown length
 ![alt](images/11-arrays/2023-05-11-1.png)
 
+#### For Each Loops
 - you cannot break out of a for each loop- continue and break statements do not work, instead, for each always loops through entire array, so if that is the desired behavior, use a for of loop instead
 
 - for each method is similar to for of loop method, but simpler, for each is a higher order function with a callback function inside
@@ -42,11 +48,14 @@
 
 ## 5/12/23
 
+#### Map Method
 - map method is like for each loop, but takes a function as an input that creates a new array based on the original array, usually with some operation applied to each original array element
 - ![alt](images/11-arrays/2023-05-12-1.png)
 
+#### Filter Method
 - filter method searches the original array for elements that satisfy a particular condition and puts them into a new array
 
+#### Reduce Method
 - reduce method combines all values of original array into one single value, ex by adding all numbers together, or another operation, no new array, only the reduced value
 
 - like for each, map method has access to same 3 parameters- current element, current index, and entire array
@@ -60,6 +69,7 @@
 
 ## 5/22/23
 
+#### Chaining Methods
 - Methods can be chained together as long as the method returns a new array (ex: filter, map methods) for the next method in the chain to use. 
 - No other method can follow reduce method because its output is not a new array/
 - The problem with chaining methods is that it is difficult to tell which step produces a bug when it doesn't work as expected.
@@ -70,3 +80,10 @@
 
 - Be careful not to overuse chaining. For really large arrays, to continually produce and cycle through new arrays in the chain can create performance issues. For large arrays, try to compress into as few methods as possible.
 - Bad practice in js to chain methods that mutate the original array (ex: splice, reverse).
+
+## 5/26/23
+
+#### Find Method
+- use find method to retrieve one element of an array based on a condition
+- find method accepts a condition and callback function as inputs, then loops over array with the inputs
+- find method only returns the first element in the array that meets the condition, not a new array

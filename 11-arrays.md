@@ -91,3 +91,6 @@
 - prevent default method on an event will prevent its default behavior, in this case a submit button would normally reload the page, so prevent it
 ![alt](images/11-arrays/2023-05-26-1.png)
 - a user hitting enter while the focus is in either the user or pin text input boxes will also trigger the click event
+
+- because assignment operator works from right to left, to set two different variables to the same value, can set them equal to each other with the new value last (to the right) and both will be reassigned in the same line of code
+- ![alt](images/11-arrays/2023-05-26-2.png)

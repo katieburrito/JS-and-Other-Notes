@@ -3,7 +3,7 @@
 
 ### 04/13/23
 2023-04-13 27a short circuit- if first value of OR statement is truthy, the first value is immediately returned, if first value is falsey, they second is returned even if its also falsey
-![alt](../images/09-data-structures/0901-destructuring/2023-04-13-27a.png)
+![alt](../images/09-data-structures/0903-short-circuiting-logical-assignment/2023-04-13-27a.png)
 
 2023-04-13 27b if multiple values, the first truthy value is returned and the rest go unevaluated
 ![alt](../images/09-data-structures/0901-destructuring/2023-04-13-27b.png)

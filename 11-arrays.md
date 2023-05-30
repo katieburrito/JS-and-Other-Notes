@@ -98,4 +98,7 @@
 - blur method removes focus from current selected element, in this case the pin input field
 ![alt](images/11-arrays/2023-05-26-3.png)
 
-
+## 5/30/23
+- it's very common to use prevent default when working with forms because without, the submit button would always reload the page, which often isn't desired
+- find index method is similar to find method but returns that element's index instead of the element itself
+- like find, findIndex method can access not just current element, but also index as well as entire array as input parameters

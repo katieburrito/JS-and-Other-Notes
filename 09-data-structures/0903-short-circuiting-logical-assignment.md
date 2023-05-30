@@ -22,3 +22,17 @@
 
 - to fix the instance where 0 returns falsey instead of the number 0, use two question marks, aka the nullish coalescing operator, which only considers null and undefined as falsey, but 0 or empty string are truthy
 ![alt](../images/09-data-structures/0903-short-circuiting-logical-assignment/2023-04-13-31.png)
+
+### 04/14/23
+
+- or logical assignment operator using or equals instead of rewriting true condition
+![alt](../images/09-data-structures/0903-short-circuiting-logical-assignment/2023-04-14-1a.png)
+
+- like short circuiting, or logical assignment operator skips all falsey values, even 0, which can cause undesirable results
+![alt](../images/09-data-structures/0903-short-circuiting-logical-assignment/2023-04-14-1b.png)
+
+- logical nullish assignment operator overcomes the falsey zero issue
+![alt](../images/09-data-structures/0903-short-circuiting-logical-assignment/2023-04-14-1c.png)
+
+- logical or assignment operator assigns a value to a variable when it is falsey- undefined, while logical and assignment operator assigns a value when it is otherwise truthy, aka not undefined
+![alt](../images/09-data-structures/0903-short-circuiting-logical-assignment/2023-04-14-1d.png)

@@ -131,9 +131,12 @@
 ![alt](images/11-arrays/2023-05-31-3a.png)
 - With numbers, the sort still organizes by the first character (low to high) rather than the entire number
 ![alt](images/11-arrays/2023-05-31-3b.png)
-
-
-
-
+- This default is because the sort method treats the elements as strings, rather than numbers.
+- The workaround for numbers treated as strings in sort method is to pass a callback function.
+- Sort method continues looping over the array and applying the callback function to each consecutive pair of elements to compare them until they are all sorted in ascending
+![alt](images/11-arrays/2023-05-31-4.png)
+- The simplified version of the if statement to sort ascending/descending is to return either a positive or negative simply by subtracting one number from the previous.
+- ![alt](images/11-arrays/2023-05-31-5.png)
+- 
 
 

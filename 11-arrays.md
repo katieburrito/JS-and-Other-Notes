@@ -115,14 +115,17 @@
 - separate the callback function when reusing it with different methods to keep the code dry
 ![alt](images/11-arrays/2023-05-31-1.png)
 
-### flat method
+### flat and flatMap method
 - flat method combines all smaller, nested array elements into one "flattened" array
 - flat method does not require a callback function
 - By default, the flat method only works for one layer deep of nested arrays (default depth of 1).
 ![alt](images/11-arrays/2023-05-31-2a.png)
-
-- depth argument allows you to set deeper array nesting for flat method on an array
+- Passing in a depth argument allows you to set deeper array nesting for flat method on an array
 ![alt](images/11-arrays/2023-05-31-2b.png)
+- It is very common practice to use a map method on an array and then flatten the results, so an entire separate method, flatMap was created for this exact purpose.
+- flatMap only goes one level deep in nesting, and cannot be changed like separate flat method
+
+### Sorting Arrays
 
 
 

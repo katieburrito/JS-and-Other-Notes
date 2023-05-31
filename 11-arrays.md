@@ -137,6 +137,10 @@
 ![alt](images/11-arrays/2023-05-31-4.png)
 - The simplified version of the if statement to sort ascending/descending is to return either a positive or negative simply by subtracting one number from the previous.
 ![alt](images/11-arrays/2023-05-31-5.png)
--MDN Explanation of [sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+- MDN Explanation of [sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+- A mixed array of numbers, strings, etc isn't a good application for sort method.
+- By default, sort modifies the original array, so to prevent this, take a copy of the array with the slice method and chain the sort method to that instead.
+- ![alt](images/11-arrays/2023-05-31-6.png)
+- 
 
 

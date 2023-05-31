@@ -118,11 +118,11 @@
 ### flat method
 - flat method combines all smaller, nested array elements into one "flattened" array
 - flat method does not require a callback function
-![alt](images/11-arrays/2023-05-31-2.png)
-
 - By default, the flat method only works for one layer deep of nested arrays (default depth of 1).
+![alt](images/11-arrays/2023-05-31-2a.png)
+
 - depth argument allows you to set deeper array nesting for flat method on an array
-![alt](images/11-arrays/2023-05-31-3.png)
+![alt](images/11-arrays/2023-05-31-2b.png)
 
 
 

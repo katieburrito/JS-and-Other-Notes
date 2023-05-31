@@ -126,6 +126,12 @@
 - flatMap only goes one level deep in nesting, and cannot be changed like separate flat method
 
 ### Sorting Arrays
+- By default, sort method organizes array elements alphabetically from A-Z by first character
+- Sort method mutates the original array, so the order is permanently changed.
+![alt](images/11-arrays/2023-05-31-3a.png)
+- With numbers, the sort still organizes by the first character (low to high) rather than the entire number
+![alt](images/11-arrays/2023-05-31-3b.png)
+
 
 
 

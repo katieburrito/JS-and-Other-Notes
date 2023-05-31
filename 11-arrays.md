@@ -100,5 +100,31 @@
 
 ## 5/30/23
 - it's very common to use prevent default when working with forms because without, the submit button would always reload the page, which often isn't desired
+
+### findIndex method
 - find index method is similar to find method but returns that element's index instead of the element itself
 - like find, findIndex method can access not just current element, but also index as well as entire array as input parameters
+
+## 5/31/23
+
+### Some and Every methods
+- includes method checks for equality- if an array contains an exact value and returns a boolean
+- some and every check for conditions
+- some returns true if any element in the array satisfies the set condition
+- every returns true only if every element in the array satisfies the set condition
+- separate the callback function when reusing it with different methods to keep the code dry
+![alt](images/11-arrays/2023-05-31-1.png)
+
+### flat method
+- flat method combines all smaller, nested array elements into one "flattened" array
+- flat method does not require a callback function
+![alt](images/11-arrays/2023-05-31-2.png)
+
+- By default, the flat method only works for one layer deep of nested arrays (default depth of 1).
+- depth argument allows you to set deeper array nesting for flat method on an array
+![alt](images/11-arrays/2023-05-31-3.png)
+
+
+
+
+

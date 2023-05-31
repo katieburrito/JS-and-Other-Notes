@@ -136,7 +136,7 @@
 - Sort method continues looping over the array and applying the callback function to each consecutive pair of elements to compare them until they are all sorted in ascending
 ![alt](images/11-arrays/2023-05-31-4.png)
 - The simplified version of the if statement to sort ascending/descending is to return either a positive or negative simply by subtracting one number from the previous.
-- ![alt](images/11-arrays/2023-05-31-5.png)
-- 
+![alt](images/11-arrays/2023-05-31-5.png)
+-MDN Explanation of [sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 
 

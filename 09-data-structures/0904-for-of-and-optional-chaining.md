@@ -34,26 +34,26 @@
 - use nullish coalescing operator instead
 ![alt](../images/09-data-structures/0904-for-of-and-optional-chaining/2023-04-20-5c.png)
 
-2023-04-20 6 use optional chaining for calling methods to check if the method exists before calling it
+- use optional chaining for calling methods to check if the method exists before calling it
 ![alt](../images/09-data-structures/0904-for-of-and-optional-chaining/2023-04-20-6.png)
 
-2023-04-20 7 use optional chaining for arrays to check contents or if an array is empty, this replaces if else statement
+- use optional chaining for arrays to check contents or if an array is empty, this replaces if else statement
 ![alt](../images/09-data-structures/0904-for-of-and-optional-chaining/2023-04-20-7.png)
 
-2023-04-20 8a for of loop is for looping through arrays- iterable- but there is also a workaround for looping through objects- not interable- need to determine which part to access, key-property or value or both
+- for of loop is for looping through arrays- iterable- but there is also a workaround for looping through objects- not interable- need to determine which part to access, key-property or value or both
 ![alt](../images/09-data-structures/0904-for-of-and-optional-chaining/2023-04-20-8a.png)
 
-2023-04-20 8b this technique turns the list of properties, values, or both into an array, which can then be used to compute how many-length
+- this technique turns the list of properties, values, or both into an array, which can then be used to compute how many-length
 ![alt](../images/09-data-structures/0904-for-of-and-optional-chaining/2023-04-20-8b.png)
 
-2023-04-20 9 access values that are inside the object by calling the value instead of the key name
+- access values that are inside the object by calling the value instead of the key name
 ![alt](../images/09-data-structures/0904-for-of-and-optional-chaining/2023-04-20-9.png)
 
-2023-04-20 10a access the key value pairs inside an object, use entries, like the entries method previous called from for of loop for an array, but this is not an array method
+- access the key value pairs inside an object, use entries, like the entries method previous called from for of loop for an array, but this is not an array method
 ![alt](../images/09-data-structures/0904-for-of-and-optional-chaining/2023-04-20-10a.png)
 
-2023-04-20 10b this basically converts the object into an array, which can then be looped through with a for of loop, producing individual arrays for each item in the object
+- this basically converts the object into an array, which can then be looped through with a for of loop, producing individual arrays for each item in the object
 ![alt](../images/09-data-structures/0904-for-of-and-optional-chaining/2023-04-20-10b.png)
 
-2023-04-20 10c Using destructring  directly inside the for of loop to assign variables to the parts of the object and then use them in the loop
+- Using destructring  directly inside the for of loop to assign variables to the parts of the object and then use them in the loop
 ![alt](../images/09-data-structures/0904-for-of-and-optional-chaining/2023-04-20-10c.png)

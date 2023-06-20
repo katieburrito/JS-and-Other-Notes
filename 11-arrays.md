@@ -229,3 +229,5 @@
 - NOTE: x++ postfix operator to increment one doesn't always work as might be expected because it adds one to the variable after it is called
 - instead, use the ++x prefix operator to avoid this problem
 ![alt](images/11-arrays/2023-06-20-4.png)
+
+- When using reduce method to create a new object, the starting point should also be an object (instead of "0").

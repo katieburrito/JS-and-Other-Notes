@@ -226,3 +226,6 @@
     - Based on callback:
         - .forEach
 
+- NOTE: x++ postfix operator to increment one doesn't always work as might be expected because it adds one to the variable after it is called
+- instead, use the ++x prefix operator to avoid this problem
+![alt](images/11-arrays/2023-06-20-4.png)

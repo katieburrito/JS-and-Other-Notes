@@ -149,14 +149,15 @@
 - using constructor to produce array with only one argument, the number specified is the array length containing the empty elements, not the array contents
 ![alt](images/11-arrays/2023-06-20-1a.png)
 - creating an array with empty elements like this is not very useful- cannot apply methods, as result will be the same because the elements are empty
-- ![alt](images/11-arrays/2023-06-20-1b.png)
+![alt](images/11-arrays/2023-06-20-1b.png)
 - *** the exception here is the fill method can be called on an array of empty elements
 - fill method fills the entire array with the argument passed, and mutates the original array
-![alt](images/11-arrays/2023-06-20-1c.png)
+![alt](images/11-arrays/2023-06-20-2a.png)
 - first argument passed in fill method is the content- what element to fill with
 - second and third arguments passed in fill method are the starting and ending index for the fill (like slice method)
-![alt](images/11-arrays/2023-06-20-1d.png)
+![alt](images/11-arrays/2023-06-20-2b.png)
 - fill can also be used on non-empty arrays, and will mutate the original, replacing specified elements with the fill element
-![alt](images/11-arrays/2023-06-20-1e.png)
+![alt](images/11-arrays/2023-06-20-2c.png)
 
 - from method is not applied to an existing array, but directly to the array constructor
+![alt](images/11-arrays/2023-06-20-3.png)

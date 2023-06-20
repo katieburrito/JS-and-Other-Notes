@@ -154,12 +154,14 @@
 - fill method fills the entire array with the argument passed, and mutates the original array
 ![alt](images/11-arrays/2023-06-20-2a.png)
 
+#### Fill Method
 - first argument passed in fill method is the content- what element to fill with
 - second and third arguments passed in fill method are the starting and ending index for the fill (like slice method)
 ![alt](images/11-arrays/2023-06-20-2b.png)
 - fill can also be used on non-empty arrays, and will mutate the original, replacing specified elements with the fill element
 ![alt](images/11-arrays/2023-06-20-2c.png)
 
+#### From Method
 - from method is not applied to an existing array, but directly to the array constructor
 - first argument in from method is length object
 - second argument in from method is a function that returns the fill element
@@ -168,11 +170,9 @@
 ![alt](images/11-arrays/2023-06-20-3b.png)
 - use an underscore as a placeholder for "throwaway variables." Here, the current element is not needed for the function, but it is automatically the first accessible parameter, so skip it with the underscore
 ![alt](images/11-arrays/2023-06-20-3c.png)
-
 - The original purpose of the from method was to create arrays from other iterable (array-like) structures, like maps, strings, sets,
 - Another example: querySelectorAll results, which is a node list, not a real array, and thus cannot use array methods.
 - To use the array methods on the node list, first convert to an array using from method.
-
 - Alternative to Array.from method is to use spread operator to put the querySelectorAll results into an array, but then the mapping step that converts to number and removes symbol would have to be separate because the spread operator doesn't take a callback function to handle that like the from method does.
 ![alt](images/11-arrays/2023-06-20-3d.png)
 

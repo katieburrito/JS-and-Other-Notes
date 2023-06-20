@@ -153,6 +153,7 @@
 - *** the exception here is the fill method can be called on an array of empty elements
 - fill method fills the entire array with the argument passed, and mutates the original array
 ![alt](images/11-arrays/2023-06-20-2a.png)
+
 - first argument passed in fill method is the content- what element to fill with
 - second and third arguments passed in fill method are the starting and ending index for the fill (like slice method)
 ![alt](images/11-arrays/2023-06-20-2b.png)
@@ -160,4 +161,14 @@
 ![alt](images/11-arrays/2023-06-20-2c.png)
 
 - from method is not applied to an existing array, but directly to the array constructor
-![alt](images/11-arrays/2023-06-20-3.png)
+- first argument in from method is length object
+- second argument in from method is a function that returns the fill element
+![alt](images/11-arrays/2023-06-20-3a.png)
+- as with some other callback functions, the callback function that is the second argument of the from method also can access the current element, as well as that element's index
+![alt](images/11-arrays/2023-06-20-3b.png)
+- use an underscore as a placeholder for "throwaway variables." Here, the current element is not needed for the function, but it is automatically the first accessible parameter, so skip it with the underscore
+![alt](images/11-arrays/2023-06-20-3c.png)
+
+
+
+

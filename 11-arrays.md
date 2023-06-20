@@ -202,12 +202,26 @@
     - Flattening the original:
         - .flat
         - .flatMap
-
-to mutate the original or produce a new array?
-an array index or an array element?
-if an array includes a certain element?
-a new string?
-transform a value?
-to loop over the array
-
+- To obtain the array index:
+    - Based on a value:
+        - .indexOf
+    - Based on a test condition:
+        - .findIndex
+- To obtain the array element:
+    - Based on a test condition:
+        - .find
+- Know if array includes something:
+    - Based on a value:
+        - .includes
+    - Based on a test condition:
+        - .some
+        - .every
+- Transform an array into a new string:
+    - Based on a separator string:
+        - .join
+- To transform an array to a single value of any type:
+    - Based on an accumulator:
+        - .reduce
+- To loop through an array (does not create a new array/ value, just loops over it):
+        - .forEach
 

@@ -140,7 +140,15 @@
 - MDN Explanation of [sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 - A mixed array of numbers, strings, etc isn't a good application for sort method.
 - By default, sort modifies the original array, so to prevent this, take a copy of the array with the slice method and chain the sort method to that instead.
-- ![alt](images/11-arrays/2023-05-31-6.png)
-- 
+![alt](images/11-arrays/2023-05-31-6.png)
 
+## 6/20/23
+
+#### Other Ways of Creating/ Filling Arrays
+
+- using constructor to produce array with only one argument, the number specified is the array length containing the empty elements, not the array contents
+![alt](images/11-arrays/2023-06-20-1.png)
+- creating an array with empty elements like this is not very useful- cannot apply methods, as result will be the same because the elements are empty
+- *** the exception here is the fill method can be called on an array of empty elements
+- 
 

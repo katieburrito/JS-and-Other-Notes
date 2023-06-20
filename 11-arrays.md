@@ -169,6 +169,10 @@
 - use an underscore as a placeholder for "throwaway variables." Here, the current element is not needed for the function, but it is automatically the first accessible parameter, so skip it with the underscore
 ![alt](images/11-arrays/2023-06-20-3c.png)
 
+- The original purpose of the from method was to create arrays from other iterable (array-like) structures, like maps, strings, sets,
+- Another example: querySelectorAll results, which is a node list, not a real array, and thus cannot use array methods.
+- To use the array methods on the node list, first convert to an array using from method.
+
 
 
 

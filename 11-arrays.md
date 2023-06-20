@@ -223,5 +223,6 @@
     - Based on an accumulator:
         - .reduce
 - To loop through an array (does not create a new array/ value, just loops over it):
+    - Based on callback:
         - .forEach
 

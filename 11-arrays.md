@@ -178,13 +178,19 @@
 
 ### Determining Which Array Method to Use (of 23)
 - Ask yourself what you want the array to do...
-- To mutate the original array
+- To mutate the original array:
     - Add to original:
         - .push (end)
         - .unshift (start)
-    
-
-
+    - Remove from original:
+        - .pop (end)
+        - .shift (start)
+        - .splice (any)
+    - Others that mutate original:
+        - .reverse
+        - .sort
+        - .fill
+        
 to mutate the original or produce a new array?
 add to 
 an array index or an array element?

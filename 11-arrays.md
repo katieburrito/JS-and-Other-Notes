@@ -144,7 +144,7 @@
 
 ## 6/20/23
 
-#### Other Ways of Creating/ Filling Arrays
+### Other Ways of Creating/ Filling Arrays
 
 - using constructor to produce array with only one argument, the number specified is the array length containing the empty elements, not the array contents
 ![alt](images/11-arrays/2023-06-20-1a.png)
@@ -176,5 +176,18 @@
 - Alternative to Array.from method is to use spread operator to put the querySelectorAll results into an array, but then the mapping step that converts to number and removes symbol would have to be separate because the spread operator doesn't take a callback function to handle that like the from method does.
 ![alt](images/11-arrays/2023-06-20-3d.png)
 
+### Determining Which Array Method to Use (of 23)
+- Ask yourself what you want the array to do...
+- To mutate the original array
+    --
+
+
+to mutate the original or produce a new array?
+add to 
+an array index or an array element?
+if an array includes a certain element?
+a new string?
+transform a value?
+to loop over the array
 
 

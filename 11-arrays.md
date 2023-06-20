@@ -147,8 +147,9 @@
 #### Other Ways of Creating/ Filling Arrays
 
 - using constructor to produce array with only one argument, the number specified is the array length containing the empty elements, not the array contents
-![alt](images/11-arrays/2023-06-20-1.png)
+![alt](images/11-arrays/2023-06-20-1a.png)
 - creating an array with empty elements like this is not very useful- cannot apply methods, as result will be the same because the elements are empty
+- ![alt](images/11-arrays/2023-06-20-1b.png)
 - *** the exception here is the fill method can be called on an array of empty elements
-- 
-
+- fill method fills the entire array with the argument passed, and mutates the original array
+![alt](images/11-arrays/2023-06-20-1c.png)

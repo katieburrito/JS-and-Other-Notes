@@ -173,6 +173,8 @@
 - Another example: querySelectorAll results, which is a node list, not a real array, and thus cannot use array methods.
 - To use the array methods on the node list, first convert to an array using from method.
 
+- Alternative to Array.from method is to use spread operator to put the querySelectorAll results into an array, but then the mapping step that converts to number and removes symbol would have to be separate because the spread operator doesn't take a callback function to handle that like the from method does.
+![alt](images/11-arrays/2023-06-20-3d.png)
 
 
 

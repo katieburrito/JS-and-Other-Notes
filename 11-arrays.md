@@ -190,9 +190,20 @@
         - .reverse
         - .sort
         - .fill
-        
+- To produce a new array:
+    - Computed from original:
+        - .map (loop)
+    - Filtered using condition:
+        - .filter
+    - Portion of original:
+        - .slice
+    - Adding original to other:
+        - .concat
+    - Flattening the original:
+        - .flat
+        - .flatMap
+
 to mutate the original or produce a new array?
-add to 
 an array index or an array element?
 if an array includes a certain element?
 a new string?

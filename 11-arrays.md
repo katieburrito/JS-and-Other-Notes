@@ -153,3 +153,10 @@
 - *** the exception here is the fill method can be called on an array of empty elements
 - fill method fills the entire array with the argument passed, and mutates the original array
 ![alt](images/11-arrays/2023-06-20-1c.png)
+- first argument passed in fill method is the content- what element to fill with
+- second and third arguments passed in fill method are the starting and ending index for the fill (like slice method)
+![alt](images/11-arrays/2023-06-20-1d.png)
+- fill can also be used on non-empty arrays, and will mutate the original, replacing specified elements with the fill element
+![alt](images/11-arrays/2023-06-20-1e.png)
+
+- from method is not applied to an existing array, but directly to the array constructor

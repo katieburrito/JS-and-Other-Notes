@@ -232,5 +232,5 @@
 
 - When using reduce method to create a new object, the starting point should also be an object (instead of "0").
 - For reduce method with more complex return block, must manually type return with the accumulator (in this case the sums object (containing deposits and withdrawals counts)
-![alt](images/11-arrays/2023-06-20-5)
+![alt](images/11-arrays/2023-06-20-5.png)
 

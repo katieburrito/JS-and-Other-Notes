@@ -44,7 +44,7 @@
 ![alt](images/11-arrays/2023-05-11-9b.png)
 
 - insertAdjacentHTML takes 2 string inputs- first the position at which to attach the html, second is the string of the html to be inserted
-![alt](images/11-arrays/2023-05-11-1.png)
+![alt](images/11-arrays/2023-05-11-10.png)
 
 ## 5/12/23
 

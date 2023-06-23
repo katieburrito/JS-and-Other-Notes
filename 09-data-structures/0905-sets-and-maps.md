@@ -20,3 +20,25 @@
 
 - this doesn't work- sets do not have indexes like arrays, so there is no way to get data out of a set. It's not necesary to get the data like an array because order doesn't matter and there are no duplicates, so the only thing to check is whether an item is in the set or not using the has method.
 ![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-21-4.png)
+
+2023-04-21 5 sets are iterable and so can be looped throug
+![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-21-5.png)
+
+2023-04-21 6 the main use for a set is to remove duplicate values from an array
+![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-21-6.png)
+
+2023-04-21 7 because both sets and arrays are iterable, set can be converted to array with spread operator
+![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-21-7.png)
+
+2023-04-24 1a the easiest way to create a map is to create an empty map without passing anything in
+![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-24-1a.png)
+
+2023-04-24 1b and then pass the info with the set method listing key value pairs
+![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-24-1b.png)
+
+2023-04-24 2 the set method automatically returns the updated map with the data that was passed in the method
+![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-24-2.png)
+
+2023-04-24 3 chain each key value setting for the map to the previous with period dot between
+![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-24-3.png)
+

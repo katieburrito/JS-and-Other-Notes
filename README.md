@@ -8,4 +8,5 @@
 ## Section 9: [Data Structures, Modern Operators, and Strings](09-data-structures)
 ## Section 10: [A Closer Look at Functions](10-functions.md )
 ## Section 11: [Working with Arrays](11-arrays.md)
+## Section 12: [Numbers, Dates, Intl, & Timers](12-numbers.md)
 

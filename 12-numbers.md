@@ -6,22 +6,41 @@
 ![alt](images/12-numbers/2023-06-26-1.png)
 
 - convert strings to numbers with number object constructor or just by putting plus sign in front
-![alt](images/12-numbers/2023-06-2.png)
+![alt](images/12-numbers/2023-06-26-2.png)
 
-#### parseInt
+#### Number.parseInt
 - parseInt will pull a number out of a string, even with spaces, as long as the string starts with the number
 - parseInt takes a second parameter, the radix, which is the base of the numeral system (usually 10)
-![alt](images/12-numbers/2023-06-3.png)
+![alt](images/12-numbers/2023-06-26-3.png)
 
-#### parseFloat
+#### Number.parseFloat
 - parseInt only pulls out the integer part of a number, while parseFloat pulls the whole number, including decimal
-![alt](images/12-numbers/2023-06-4.png)
+![alt](images/12-numbers/2023-06-26-4.png)
 
 - parseInt and parseFloat are global functions, meaning that they will both work without the Number object constructor specified, but it is better practice to use the number object, which provides a "namespace"
 
+#### Number.isNaN
 - isNaN works with number constructor to identify what is and is not a number (NaN)
-![alt](images/12-numbers/2023-06-5.png)
+![alt](images/12-numbers/2023-06-26-5.png)
 
-- use isFinite can sometimes be better to check if something is or is not a number because of the idiosyncrasies of isNaN
-![alt](images/12-numbers/2023-06-6.png)
+#### Number.isFinite
+- use isFinite can sometimes be better to check if something is or is not a number (instead of a string) because of the idiosyncrasies of isNaN (ex, Infinity
+![alt](images/12-numbers/2023-06-26-6.png)
+
+#### Number.isInteger
+- isInteger checks if input is an integer number
+
+#### Roots of Numbers
+- use sqrt Math method (square root only) or exponentiation to a fractional root to get square, cube, etc roots
+
+#### maximum/ minimum
+- Math.max and Math.min will automatically perform type coercion, so that if some of the number inputs are written as strings, they will be automatically converted to numbers for the max/mincalculation
+- Math.max/min does not parse numbers from strings that include other characters though
+![alt](images/12-numbers/2023-06-26-7.png)
+
+#### Rounding
+- Math.trunc simply removes any numbers after decimal point
+- Math.round will actually round up or down
+![alt](images/12-numbers/2023-06-26-8.png)
+
 

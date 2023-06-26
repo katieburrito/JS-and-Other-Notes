@@ -41,6 +41,12 @@
 #### Rounding
 - Math.trunc simply removes any numbers after decimal point
 - Math.round will actually round up or down
-![alt](images/12-numbers/2023-06-26-8.png)
-
-
+- Math.ceil (ceiling) will automatically round up
+- Math.floor will automatically round down
+- all of these math rounding methods will also automatically do type coercion on string inputs
+![alt](images/12-numbers/2023-06-26-8a.png)
+- with negatives, trunc still just removes after decimal, but rounding is more negative for floor, and less negative for ceiling
+![alt](images/12-numbers/2023-06-26-8b.png)
+- toFixed allows you to specify number of decimal places, but returns a string, not a number, so convert to number with number constructor or plus sign
+- toFixed converts to a string because the primitive number inputs can't have methods, so first it is converted to string via boxing, before performing the operation
+![alt](images/12-numbers/2023-06-26-8c.png)

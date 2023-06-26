@@ -48,5 +48,5 @@
 - with negatives, trunc still just removes after decimal, but rounding is more negative for floor, and less negative for ceiling
 ![alt](images/12-numbers/2023-06-26-8b.png)
 - toFixed allows you to specify number of decimal places, but returns a string, not a number, so convert to number with number constructor or plus sign
-- toFixed converts to a string because the primitive number inputs can't have methods, so first it is converted to string via boxing, before performing the operation
+- toFixed converts to a string because it is a primitive and (similar to string methods), and primitives can't have methods, so first it is converted to string via boxing, before performing the operation
 ![alt](images/12-numbers/2023-06-26-8c.png)

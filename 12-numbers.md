@@ -54,3 +54,13 @@
 #### Remainder (modulo)
 - percentage sign is symbol for remainder operator, returns the remainder only of the division of two numbers
 ![alt](images/12-numbers/2023-06-26-9.png)
+
+#### Numeric Separators
+- Numeric separators- underscores(_) (like comma in math) separate numbers, to make the code easier to read, but they are not logged in the console
+![alt](images/12-numbers/2023-06-27-1a.png)
+- be mindful that because the underscore is not really part of the number and only for ease of reading that regardless of where it is placed, it will really be the same number, even though in one case you might use it like a comma to indicate thousands, and in another like a period to indicate cents
+![alt](images/12-numbers/2023-06-27-1b.png)
+- numeric separator can only be placed between numbers (ex: not number and decimal, not two in a row, not at beginning, not at end of number)
+![alt](images/12-numbers/2023-06-27-1c)
+
+

@@ -85,4 +85,16 @@
 ![alt](images/12-numbers/2023-06-27-2e.png)
 - BingInt can be concatenated into streings.
 - Math operations (ex sqrt, rounding, etc) cannot be used with BigInt.
+![alt](images/12-numbers/2023-06-27-2f.png)
+- Dividing with bingint returns the closest integer as the answer
+![alt](images/12-numbers/2023-06-27-2g.png)
 
+#### Creating Dates
+- new Date constructor function pulls the current date and time and time zone
+- passing in even part of a date to the date constructor function, it can parse the info and and return the entire d ate, time, and time zone
+- this method is not the best practice though, because it can be unreliable
+![alt](images/12-numbers/2023-06-27-3a.png)
+- "Z" at end of date/time string is UTC- coordinated universal time (time without daylight savings)
+![alt](images/12-numbers/2023-06-27-3b.png)
+- passing in numbers to date constructor, js will parse the info into a new date string with date and time- months are based on 0 as jan, so 12 for month rolls into jan for the next year, a day number higher than the month has will roll forward too
+![alt](images/12-numbers/2023-06-27-3c.png)

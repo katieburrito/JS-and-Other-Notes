@@ -109,4 +109,6 @@
 - getDay returns the day of the week (zero based from Sunday)
 - getHours, getMinutes, Get Seconds, returns time
 ![alt](images/12-numbers/2023-06-27-3e.png)
-- 
+- Date.now() method returns the current moment's timestamp (time elapsed since Jan 1, 1970)
+![alt](images/12-numbers/2023-06-27-3f.png)
+

@@ -107,8 +107,11 @@
 - getMonth is zero-based
 - getDate returns the day number
 - getDay returns the day of the week (zero based from Sunday)
-- getHours, getMinutes, Get Seconds, returns time
+- getHours, getMinutes, getSeconds, returns time
+- getTime returns timestamp (time elapsed since Jan 1, 1970)
 ![alt](images/12-numbers/2023-06-27-3e.png)
-- Date.now() method returns the current moment's timestamp (time elapsed since Jan 1, 1970)
+- toISOString method returns a date/time string with Z ending for UTC time zone
 ![alt](images/12-numbers/2023-06-27-3f.png)
+- Date.now() method returns the current moment's timestamp (time elapsed since Jan 1, 1970)
+![alt](images/12-numbers/2023-06-27-3g.png)
 

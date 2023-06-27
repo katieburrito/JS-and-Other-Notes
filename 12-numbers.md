@@ -66,5 +66,19 @@
 - also doesn't work with parseInt because only first part before the underscore will be pulled
 ![alt](images/12-numbers/2023-06-27-1d.png)
 
-#### BigInt
-- because of 64bit limit, the largest number js can represent is 
+#### BigInt Primitive Data Type 
+- 64bit limit: there are 64 0's or 1's to represent any given number
+- only 53 bits are allowed for the numerals themselves, the other 11 are for decimals, sign, etc
+- because of this, the largest number js can represent is 2 (for 0 or 1- base 2) raised to the 53 power (minus 1 because count starts at 0, not 1
+- this information is also stored in the MAX_SAFE_INTEGER in the number static data property
+- any integer larger than the max safe integer is not safe, meaning it cannot be accurately represented
+![alt](images/12-numbers/2023-06-27-2a.png)
+- add an "n" to the end of large numbers to indicate that they are "Bigint"
+- or use "BigInt" constructor function to indicate big integer- can be problematic because first js has to interpret the large number before adding n to end
+![alt](images/12-numbers/2023-06-27-2b.png)
+- BigInt can be combined with other BigInt, but not regluar numbers because the BigInt cannot be converted to a regular number
+![alt](images/12-numbers/2023-06-27-2c.png) 
+- As a workaround, use the BigInt constructor function on the regular number first
+![alt](images/12-numbers/2023-06-27-2d.png) 
+ 
+

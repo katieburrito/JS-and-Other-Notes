@@ -114,4 +114,8 @@
 ![alt](images/12-numbers/2023-06-27-3f.png)
 - Date.now() method returns the current moment's timestamp (time elapsed since Jan 1, 1970)
 ![alt](images/12-numbers/2023-06-27-3g.png)
+- for all date/ time methods, use "set" instead of "get" to establish different date/time characteristics (ex: setFullYear)
+![alt](images/12-numbers/2023-06-27-3h.png)
 
+- to loop over 2 arrays at once, call forEach method on one of the arrays, then use the current index to loop through the second inside the same loop
+![alt](images/12-numbers/2023-06-27-4.png)

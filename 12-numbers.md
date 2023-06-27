@@ -98,3 +98,15 @@
 ![alt](images/12-numbers/2023-06-27-3b.png)
 - passing in numbers to date constructor, js will parse the info into a new date string with date and time- months are based on 0 as jan, so 12 for month rolls into jan for the next year, a day number higher than the month has will roll forward too
 ![alt](images/12-numbers/2023-06-27-3c.png)
+-single number passed into the date constructor function is the number of milliseconds since the beginning of unix time (Jan 1, 1970)
+- to get the timestamp, multiply days, hours, minutes, seconds, milliseconds to add time to that in millisconds(ex is 3 days later)
+- note to self: my computer displays 5 hours before that date/time because my computer is set to EST
+![alt](images/12-numbers/2023-06-27-3d.png)
+- Date object has its own methods, just like arrays, maps, strings, etc
+- use getFullYear for 4 digit year (use this instead of getYear)
+- getMonth is zero-based
+- getDate returns the day number
+- getDay returns the day of the week (zero based from Sunday)
+- getHours, getMinutes, Get Seconds, returns time
+![alt](images/12-numbers/2023-06-27-3e.png)
+- 

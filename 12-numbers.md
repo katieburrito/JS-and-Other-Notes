@@ -80,5 +80,9 @@
 ![alt](images/12-numbers/2023-06-27-2c.png) 
 - As a workaround, use the BigInt constructor function on the regular number first
 ![alt](images/12-numbers/2023-06-27-2d.png) 
- 
+- One exception: BigInt and regular numbers can be compared with greater than/ less than comparison operators
+- strict equlity comparison operator doesn't work because js doesn't do type coercion, and the regular number and the bigint number are two different primitive types, but they will be equal wit the looser equality operator
+![alt](images/12-numbers/2023-06-27-2e.png)
+- BingInt can be concatenated into streings.
+- Math operations (ex sqrt, rounding, etc) cannot be used with BigInt.
 

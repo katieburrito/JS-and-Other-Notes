@@ -125,7 +125,7 @@
 ### 6/29/23
 - for more complex date/time calculations, use a js library (like moment js)
 
-#### Internationalization API 
+#### Internationalization
 - To use the internationalization api, pass locale string into DateTimeFormat function of new Intl (internationalization api namespace)
 - Locale string is the language and country (separated by a dash), ex "en-US" for English-USA
 ![alt](images/12-numbers/2023-06-29-1.png)
@@ -134,6 +134,14 @@
 ![alt](images/12-numbers/2023-06-29-2.png)
 - DateTimeFormat can take a second parameter that sets display options. Best to store these separately in an object variable to avoid cluttering the DateTimeFormat function call
 ![alt](images/12-numbers/2023-06-29-3.png)
+- set the locale automatically with navigator language property, which pulls from user's browser
+![alt](images/12-numbers/2023-06-29-4.png)
+- non-date numbers can also be internationalized using Intl namespace, and number formater
+- option number formatting options can also be applied
+- style can be either unit, percent, or currency
+- if style is unit, specify what type of unit separately [list of units](https://tc39.es/ecma402/#table-sanctioned-single-unit-identifiers)
+![alt](images/12-numbers/2023-06-29-5.png)
+
 
 
 

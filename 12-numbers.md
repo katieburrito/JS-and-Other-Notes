@@ -55,6 +55,8 @@
 - percentage sign is symbol for remainder operator, returns the remainder only of the division of two numbers
 ![alt](images/12-numbers/2023-06-26-9.png)
 
+### 6/27/23
+
 #### Numeric Separators
 - Numeric separators- underscores(_) (like comma in math) separate numbers, to make the code easier to read, but they are not logged in the console
 ![alt](images/12-numbers/2023-06-27-1a.png)
@@ -119,3 +121,23 @@
 
 - to loop over 2 arrays at once, call forEach method on one of the arrays, then use the current index to loop through the second inside the same loop
 ![alt](images/12-numbers/2023-06-27-4.png)
+
+### 6/29/23
+- for more complex date/time calculations, use a js library (like moment js)
+
+#### Internationalization API 
+- To use the internationalization api, pass locale string into DateTimeFormat function of new Intl (internationalization api namespace)
+- Locale string is the language and country (separated by a dash), ex "en-US" for English-USA
+![alt](images/12-numbers/2023-06-29-1.png)
+- list of locale strings: [W3 Schools Locale Strings](https://www.w3schools.com/jsref/jsref_tolocalestring.asp)
+- call format method on the Intl namespace DateTimeFormat and pass in the date that you want it to format
+![alt](images/12-numbers/2023-06-29-2.png)
+- DateTimeFormat can take a second parameter that sets display options. Best to store these separately in an object variable to avoid cluttering the DateTimeFormat function call
+![alt](images/12-numbers/2023-06-29-3.png)
+
+
+
+
+
+
+

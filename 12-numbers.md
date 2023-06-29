@@ -137,12 +137,10 @@
 - set the locale automatically with navigator language property, which pulls from user's browser
 ![alt](images/12-numbers/2023-06-29-4.png)
 - non-date numbers can also be internationalized using Intl namespace, and number formater
-- option number formatting options can also be applied
+- option number formatting options can also be applied: [number formatting](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/NumberFormat)
 - style can be either unit, percent, or currency
-- if style is unit, specify what type of unit separately [list of units](https://tc39.es/ecma402/#table-sanctioned-single-unit-identifiers)
+- if style is unit, specify what type of unit separately [list of units:](https://tc39.es/ecma402/#table-sanctioned-single-unit-identifiers)
 ![alt](images/12-numbers/2023-06-29-5.png)
-
-
 
 
 

@@ -139,7 +139,8 @@
 - non-date numbers can also be internationalized using Intl namespace, and number formater
 - option number formatting options can also be applied: [number formatting](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/NumberFormat)
 - style can be either unit, percent, or currency
-- if style is unit, specify what type of unit separately [list of units:](https://tc39.es/ecma402/#table-sanctioned-single-unit-identifiers)
+- if style is unit, specify what type of unit separately: [list of units](https://tc39.es/ecma402/#table-sanctioned-single-unit-identifiers)
+- if style is currency, no unit is needed, but must define the currency (is NOT automatically determined by the locale), and can also optionally add a currencyDisplay
 ![alt](images/12-numbers/2023-06-29-5.png)
 
 

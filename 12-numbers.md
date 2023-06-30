@@ -143,7 +143,16 @@
 - if style is currency, no unit is needed, but must define the currency (is NOT automatically determined by the locale), and can also optionally add a currencyDisplay
 ![alt](images/12-numbers/2023-06-29-5.png)
 
+### 6/30/23
 
+#### Timers
+- setTimeout timer runs once, while setIntervalTimer runs indefinitely until stopped
+
+##### setTimeout
+- first parameter of setTimeout is the callback function- what it should do after the timeout
+- second parameter is the time in milliseconds of the delay
+- the timeout continues running in background, while the appropriate amount of time elapses, executing other code in the meantime- this is an example of asynchronous js
+- 
 
 
 

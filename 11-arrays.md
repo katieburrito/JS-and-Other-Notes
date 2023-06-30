@@ -234,3 +234,8 @@
 - For reduce method with more complex return block, must manually type return with the accumulator (in this case the sums object (containing deposits and withdrawals counts)
 ![alt](images/11-arrays/2023-06-20-5.png)
 
+
+### Array Methods Breakdown
+![alt](images/11-arrays/array-methods-from-course.png)
+
+

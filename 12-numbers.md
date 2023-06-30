@@ -176,6 +176,5 @@ the workaround for this is to export it to a separate function that calls it imm
 - like clearTimeout, stops running the function at repeated intervals after a specified amount of time has elapsed
 - input is name of function to stop executing
 ![alt](images/12-numbers/2023-06-30-7.png)
-- 
 
 

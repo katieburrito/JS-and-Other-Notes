@@ -152,8 +152,15 @@
 - first parameter of setTimeout is the callback function- what it should do after the timeout
 - second parameter is the time in milliseconds of the delay
 - the timeout continues running in background, while the appropriate amount of time elapses, executing other code in the meantime- this is an example of asynchronous js
-- 
+![alt](images/12-numbers/2023-06-30-1.png)
+- arguments passed after the delay info are arguments for the function that is being delayed, and the input for the setTimeout function is the parameter name for those arguments
+![alt](images/12-numbers/2023-06-30-2.png)
+- to store the arguments in a separate array, pass them to the function with the spread operator, which essentially pulls them out of the array individually as function arguments
+![alt](images/12-numbers/2023-06-30-3.png)
 
-
+##### clearTimeout
+- delayed function execution can be canceled during the time before the full timeout has passed using clearTimeout()
+- clearTimeout takes the function name that is to be canceled, so timeout must be assigned to a name first
+![alt](images/12-numbers/2023-06-30-4.png)
 
 

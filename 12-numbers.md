@@ -1,6 +1,6 @@
 # Numbers, Dates, Intl, and Timers
 
-## 6/26/23
+### 6/26/23
 
 - because js (and some other languages, ex php, ruby) operates in binary, base 2, some fractions are difficult to represent and can lead to unexpected math results
 ![alt](images/12-numbers/2023-06-26-1.png)
@@ -146,9 +146,9 @@
 ### 6/30/23
 
 #### Timers
-- setTimeout timer runs once, while setIntervalTimer runs indefinitely until stopped
+- setTimeout timer runs once, while setInterval runs indefinitely until stopped
 
-##### setTimeout
+#### setTimeout
 - first parameter of setTimeout is the callback function- what it should do after the timeout
 - second parameter is the time in milliseconds of the delay
 - the timeout continues running in background, while the appropriate amount of time elapses, executing other code in the meantime- this is an example of asynchronous js
@@ -158,9 +158,24 @@
 - to store the arguments in a separate array, pass them to the function with the spread operator, which essentially pulls them out of the array individually as function arguments
 ![alt](images/12-numbers/2023-06-30-3.png)
 
-##### clearTimeout
+#### clearTimeout
 - delayed function execution can be canceled during the time before the full timeout has passed using clearTimeout()
 - clearTimeout takes the function name that is to be canceled, so timeout must be assigned to a name first
 ![alt](images/12-numbers/2023-06-30-4.png)
+
+#### setInterval
+- runs code on repeat at specified intervals until stopped
+- first input is callback function (what to do after specified time)
+- second input is time interval between function executions
+![alt](images/12-numbers/2023-06-30-5.png)
+- the function in setInterval does not execute immediately, but after the first interval of time, and then repeatedly at that interval until stopped, but the intial state is that it is not executed immediately
+the workaround for this is to export it to a separate function that calls it immediately
+![alt](images/12-numbers/2023-06-30-6.png)
+
+#### clearInterval
+- like clearTimeout, stops running the function at repeated intervals after a specified amount of time has elapsed
+- input is name of function to stop executing
+![alt](images/12-numbers/2023-06-30-7.png)
+- 
 
 

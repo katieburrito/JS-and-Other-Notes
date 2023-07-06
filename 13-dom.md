@@ -57,3 +57,8 @@
 - use document "clientHeight"/ "clientWidth" to get the viewport height/ width
 ![alt](images/13-dom/2023-07-06-04.png)
 - use window "scrollTo" to designate where to scroll on the page, with first parameter: left position, second parameter: top position
+- add the top/left coordinate of the desired scroll location to the current y/x scroll position to prevent scroll from relying on different y/x measurements, based on where the page is currently scrolled to when the scrollTo method is called
+- to implement smooth scrolling and include the smooth scroll behavior, pass an object of scroll parameters (left, top, and behavior) instead of individual parameters
+- the simpler, more modern (only works in modern browsers) method to apply smooth scroll behavior is to use "scrollIntoView" method applied to the element to which you want to scroll with an input of the scroll behavior as an object, rather than passing scroll to location calculations into the object
+![alt](images/13-dom/2023-07-06-05.png)
+- 

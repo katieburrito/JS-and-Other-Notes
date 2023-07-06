@@ -28,4 +28,14 @@
 ![alt](images/13-dom/2023-07-05-02.png)
 - the documentElement (described above) accesses the root element, so to change a CSS variable's property, first access the root, where CSS variables are stored
 - the two inputs to the setProperty method are 1- which property to set, and 2- what to set it to (it's new value)
-- 
+![alt](images/13-dom/2023-07-05-03.png)
+- access standard properties for a given element by chainging their names to the element in js
+- to access class, use "className" (historical reasons) instead of just class
+- to read non-standard attributes from the dom, which would otherwise return undefined using the same method used for standard attributes, instead use "getAttribute"
+![alt](images/13-dom/2023-07-05-04.png)
+- chaining attribute names or setAttribute (instead of getAttribute) can be used to set the attribute's value
+![alt](images/13-dom/2023-07-05-05.png)
+- chaining src/href attribute to element will provide the absolute (entire) url, including root
+- using "getAttribute" for src/href of an element will provide the relative source, as written in the html, relative between the html file and the element's location
+- for external links, this might not matter, as the link in the html is usually the same absolute url, but for internal links the two methods can return different results (absolute vs relative)
+![alt](images/13-dom/2023-07-05-06.png)

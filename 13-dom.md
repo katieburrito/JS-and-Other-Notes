@@ -70,4 +70,4 @@
 ![alt](images/13-dom/2023-07-06-06.png)
 - not recommended: event listeners can also be added directly into the html with the event as an attribute and it's value in quotes for the callback function
 - js events have a capturing phase and a bubbling phase
-![alt](images/13-dom/bubbling-capturing.png)
+![alt](images/13-dom/bubbling-capturing.pdf)

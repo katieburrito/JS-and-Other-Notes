@@ -61,4 +61,13 @@
 - to implement smooth scrolling and include the smooth scroll behavior, pass an object of scroll parameters (left, top, and behavior) instead of individual parameters
 - the simpler, more modern (only works in modern browsers) method to apply smooth scroll behavior is to use "scrollIntoView" method applied to the element to which you want to scroll with an input of the scroll behavior as an object, rather than passing scroll to location calculations into the object
 ![alt](images/13-dom/2023-07-06-05.png)
-- 
+
+#### DOM Events
+- on(event), ex "onmouseenter" can be chained to an element to create an event listener for that element, but the more modern way is to use "addEventListener" with a callback function
+- addEventListener is preferred because:
+  - you can add multiple event listeners to the same element
+  - you can remove the event handler when not needed (either inside the same function or as its own, ex with a timeout
+![alt](images/13-dom/2023-07-06-06.png)
+- not recommended: event listeners can also be added directly into the html with the event as an attribute and it's value in quotes for the callback function
+- js events have a capturing phase and a bubbling phase
+![alt](images/13-dom/bubbling-capturing.png)

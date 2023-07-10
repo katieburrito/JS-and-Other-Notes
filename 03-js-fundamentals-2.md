@@ -105,38 +105,38 @@
 - in the case where the result of the function in an object might need to be used more than once in the code, it helps to then store it in a new key value pair in the function, here that is age property
 ![alt](images/03-js-fundamentals2/2023-04-03-9.png)
 
-2023-04-03 10a first part of for loop requires a variable declared with let because it will be updated, this variable is the initial value of the counter in the loop
+- first part of for loop requires a variable declared with let because it will be updated, this variable is the initial value of the counter in the loop
 ![alt](images/03-js-fundamentals2/2023-04-03-10a.png)
 
-2023-04-03 10b second part of for loop setup is the value below which the let variable must stay in order for the loop to run, as soon as the condition is false, the loop stops, it is evaluated before each iteration of the loop
+- second part of for loop setup is the value below which the let variable must stay in order for the loop to run, as soon as the condition is false, the loop stops, it is evaluated before each iteration of the loop
 ![alt](images/03-js-fundamentals2/2023-04-03-10b.png)
 
-2023-04-03 10c the third part of for loop set up is changing the value of the count, remember plus plus redefines a variable by adding one to it's current value
+- the third part of for loop set up is changing the value of the count, remember plus plus redefines a variable by adding one to it's current value
 ![alt](images/03-js-fundamentals2/2023-04-03-10c.png)
 
-2023-04-03 10d for loop lets you use the counter variable established in set up as part of code also
+- for loop lets you use the counter variable established in set up as part of code also
 ![alt](images/03-js-fundamentals2/2023-04-03-10d.png)
 
-2023-04-03 11 this is a common setup pattern when looping through an array, start with the zero index, stop while still less than length, and increment by one for index increase
+- this is a common setup pattern when looping through an array, start with the zero index, stop while still less than length, and increment by one for index increase
 ![alt](images/03-js-fundamentals2/2023-04-03-11.png)
 
-2023-04-03 12 continue in a for loop only runs the code on certain conditions, without fully exiting the loop until it is finished running, allows for skipping of steps in the loop
+- continue in a for loop only runs the code on certain conditions, without fully exiting the loop until it is finished running, allows for skipping of steps in the loop
 ![alt](images/03-js-fundamentals2/2023-04-03-12.png)
 
-2023-04-03 13 break will exit the loop as soon as condition is met, without continuing through rest of looping
+- break will exit the loop as soon as condition is met, without continuing through rest of looping
 ![alt](images/03-js-fundamentals2/2023-04-03-13.png)
 
-2023-04-03 14 cycle backwards through an array from end to beginning with decrementing and changing the start and while running rules
+- cycle backwards through an array from end to beginning with decrementing and changing the start and while running rules
 ![alt](images/03-js-fundamentals2/2023-04-03-14.png)
 
-2023-04-03 15 put a loop inside a loop and use both iteration  variables
+- put a loop inside a loop and use both iteration  variables
 ![alt](images/03-js-fundamentals2/2023-04-03-15.png)
 
-2023-04-03 16a while loops only take a condition- the loop will continue until the condition is false
+- while loops only take a condition- the loop will continue until the condition is false
 ![alt](images/03-js-fundamentals2/2023-04-03-16a.png)
 
-2023-04-03 16b while loop start is defined before loop definition, and incrementation inside the loop, while loops are more versatile than for loops
+- while loop start is defined before loop definition, and incrementation inside the loop, while loops are more versatile than for loops
 ![alt](images/03-js-fundamentals2/2023-04-03-16b.png)
 
-2023-04-03 17 a while loop is best for a scenario like this, when there is no way to know how many times it will need to run to meet a condition, a for loop is best whenit is known how many times it'll run and can use a counter, ex in an array
+- a while loop is best for a scenario like this, when there is no way to know how many times it will need to run to meet a condition, a for loop is best whenit is known how many times it'll run and can use a counter, ex in an array
 ![alt](images/03-js-fundamentals2/2023-04-03-17.png)

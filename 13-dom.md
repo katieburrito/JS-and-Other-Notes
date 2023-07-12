@@ -92,4 +92,6 @@
 ![alt](images/13-dom/2023-07-12-02.png)
 - The addEventListener, by default, is only listening for events in bubbling phase (not capture).
 - addEventListener can take a third parameter (in addition to the event and the handler function) called "useCapture," which is a boolean (true or false), describing whether or not to listen for an event in the capture phase instead of the bubbling phase.
+- When useCapture is true, the events will be listened for as they travel down from the dom instead of back up from the child. This means that the outer parent element's event is registered first, before the event on the middle parent or the child.
 ![alt](images/13-dom/2023-07-12-03.png)
+-

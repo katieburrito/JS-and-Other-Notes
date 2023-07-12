@@ -81,4 +81,8 @@
 - Not all events have capturing/bubbling phases. For these, the event is created directly on the element and only handled at that point.
 - Capturing/Bubbling: events propagating from one place to another
 - [Stack Overflow Capturing/ Bubbling explanation](https://stackoverflow.com/questions/4616694/what-is-event-bubbling-and-capturing)
-- 
+- The target is the place where the event originated (not the handler on which the handler is attached).
+- In below image, "features" button was clicked, which generated the same event for it (".nav__link) and it's two parents (".nav__links" and ".nav"), because of event bubbling, and because they all had handlers attached, but the target, which is where the event originated (where the click, or other event, actually happened) is the same for all 3: the ".nav-link" button.
+![alt](images/13-dom/2023-07-12-01a.png)
+- The currentTarget is the element on which the event handler is attached. ("currentTarget" is different from just "target.")
+![alt](images/13-dom/2023-07-12-01b.png)

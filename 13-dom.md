@@ -69,5 +69,14 @@
   - you can remove the event handler when not needed (either inside the same function or as its own, ex with a timeout
 ![alt](images/13-dom/2023-07-06-06.png)
 - not recommended: event listeners can also be added directly into the html with the event as an attribute and it's value in quotes for the callback function
+
+### 7/12/23
 - js events have a capturing phase and a bubbling phase
 ![png](images/13-dom/bubbling-capturing.png)
+- Capturing Phase: Events begin at the document root and travel through all parent levels (but not siblings) an element until they arrive at that element on which the event was called (the target).
+- Target Phase: When the event reaches the target element, the target phase begins, where the events can be handled (with event listeners), calling the attached callback function on the target event.
+- Bubbling Phase: After reaching the target, the event travels back through the parent elements (but not siblings) to the document root. (aka: events bubble up to the document root)
+- The capturing and bubbling phase function as if the event has also happened in each of the parent elements, so if the same event handler function is added to a parent element, it will also be called when the event happens.
+- Events can only be handled in the target and bubbling phase.
+- Not all events have capturing/bubbling phases. For these, the event is created directly on the element and only handled at that point.
+- Capturing/Bubbling: events propagating from one place to another

@@ -84,5 +84,12 @@
 - The target is the place where the event originated (not the handler on which the handler is attached).
 - In below image, "features" button was clicked, which generated the same event for it (".nav__link) and it's two parents (".nav__links" and ".nav"), because of event bubbling, and because they all had handlers attached, but the target, which is where the event originated (where the click, or other event, actually happened) is the same for all 3: the ".nav-link" button.
 ![alt](images/13-dom/2023-07-12-01a.png)
-- The currentTarget is the element on which the event handler is attached. ("currentTarget" is different from just "target.")
+- The currentTarget IS the element on which the event handler is attached. ("currentTarget" is different from just "target")
+- currentTarget is the same as "this" keyword
 ![alt](images/13-dom/2023-07-12-01b.png)
+- The stopPropagation method on an event will stop the sharing of the event from child to parents, so the event is only handled on the origination element, and not its parents.
+- Using stopPropagation is not usually recommended
+![alt](images/13-dom/2023-07-12-02.png)
+- The addEventListener, by default, is only listening for events in bubbling phase (not capture).
+- addEventListener can take a third parameter (in addition to the event and the handler function) called "useCapture," which is a boolean (true or false), describing whether or not to listen for an event in the capture phase instead of the bubbling phase.
+![alt](images/13-dom/2023-07-12-03.png)

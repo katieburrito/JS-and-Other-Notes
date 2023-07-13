@@ -104,4 +104,8 @@
 ### 7/13/23
 
 #### Event Delegation
-
+- For small projects, it might seem fine to use a forEach loop to attach event listeners to links to handle navigation, but for larger node lists, it is inefficient because it essentially creates a copy for each item in the list. Instead, use event delegation.
+![alt](images/13-dom/2023-07-13-01.png)
+- Event delegation relys on events bubbling up, so the listener can be applied to a common parent of all of the links to which you want to add the event listener.
+- With event delegation, distinguish which of the child element's was selected by accessing the event.target of the selected element.
+- 

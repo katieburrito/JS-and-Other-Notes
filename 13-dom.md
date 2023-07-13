@@ -71,6 +71,9 @@
 - not recommended: event listeners can also be added directly into the html with the event as an attribute and it's value in quotes for the callback function
 
 ### 7/12/23
+
+#### Event Capturing and Bubbling
+
 - js events have a capturing phase and a bubbling phase
 ![png](images/13-dom/bubbling-capturing.png)
 - Capturing Phase: Events begin at the document root and travel through all parent levels (but not siblings) an element until they arrive at that element on which the event was called (the target).
@@ -97,4 +100,8 @@
 - When useCapture is true for all, the events will be listened for as they travel down from the dom instead of back up from the child. This means that the outer parent element's event is registered first, before the event on the middle parent or the child. (ex: when child button is clicked, the order is: outer parent, middle parent, child)
 ![alt](images/13-dom/2023-07-12-03b.png)
 - Capturing is rarely used and both bubbling and capturing mostly exist for historical reasons (old versions of js).
-- 
+
+### 7/13/23
+
+#### Event Delegation
+

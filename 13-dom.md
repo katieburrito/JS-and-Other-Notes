@@ -104,8 +104,31 @@
 ### 7/13/23
 
 #### Event Delegation
-- For small projects, it might seem fine to use a forEach loop to attach event listeners to links to handle navigation, but for larger node lists, it is inefficient because it essentially creates a copy for each item in the list. Instead, use event delegation.
-![alt](images/13-dom/2023-07-13-01.png)
+- For small projects, it might seem fine to use a forEach loop to attach event listeners to links to handle navigation, but for larger node lists, it is inefficient because it essentially creates a copy of the function for each item in the list. Instead, use event delegation.
+![alt](images/13-dom/2023-07-13-01a.png)
 - Event delegation relys on events bubbling up, so the listener can be applied to a common parent of all of the links to which you want to add the event listener.
 - With event delegation, distinguish which of the child element's was selected by accessing the event.target of the selected element.
-- 
+- When relying on parent element to delegate, must override if just the parent and not one of the intended children elements is clicked, by confirming that the intended element for the event listener action also has a class that is shared only amongst the children (but not the parent). In this case, that is the "nav__link" (individual) class inside the parent "nav__links" (plural) class.
+![alt](images/13-dom/2023-07-13-01b.png)
+- Event delegation is especially important for elements that are not yet on the page when it first loads because event handlers cannot be added to elements that don't exist.
+- For event delegation, be mindful of further children elements that you don't want a reaction to (ex a span inside a button). The workaround here is to use "closest" - see below.
+
+#### DOM Traversing
+- DOM traversing means selecting an element based on another element.
+- querySelector/ querySelectorAll can also be applied to elements (not just document)
+- childNodes pulls direct children of the element it is called on in more detail (more than just the elements themselves, like querySelector), which is not commonly used
+- "children" pulls an html collection of the direct children elements of the element on which it is called
+![alt](images/13-dom/2023-07-13-02.png)
+- firstElementChild and lastElementChild select only specific children of other elements.
+- parentNode selects direct parent. parentElement is usually the same, except when parentElement is null (ex: parentElement of the documentElement)
+- The "closest" method receives a query string like querySelector, but returns the closest element (either that same element or parents) that meets the condition passed as an argument.
+- closest is the opposite of querySelector- closest moves up through DOM tree to parents (or self) and querySelector moves down to children
+- Custom CSS properties can be applied in js just like standard properties (ex gradient variable here, instead of hex or rgb, etc).
+![alt](images/13-dom/2023-07-13-03.png)
+- Select siblings with previousElementSibling or nextElementSibling. Only direct siblings can be selected (immediately before or after an element)
+![alt](images/13-dom/2023-07-13-04.png)
+- To access other siblings, first move up to parent element, then select all children. (This will include the original element in the results, so use if statement to exclude it, if you only want the siblings):
+![alt](images/13-dom/2023-07-13-05.png)
+
+
+

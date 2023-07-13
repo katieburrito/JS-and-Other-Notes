@@ -130,5 +130,8 @@
 - To access other siblings, first move up to parent element, then select all children. (This will include the original element in the results, so use if statement to exclude it, if you only want the siblings):
 ![alt](images/13-dom/2023-07-13-05.png)
 
+- Guard Clause - an if statement that returns early (terminating the function) if a condition is met (in this case, if clicked is null, which would happen if the parent container is clicked, outside of the buttons that it contains
+![alt](images/13-dom/2023-07-13-06a.png)
+![alt](images/13-dom/2023-07-13-06b.png)
 
 

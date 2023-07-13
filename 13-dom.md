@@ -134,4 +134,16 @@
 ![alt](images/13-dom/2023-07-13-06a.png)
 ![alt](images/13-dom/2023-07-13-06b.png)
 
+#### Passing Elements to Event Handlers
+- mouseover is similar to mouseenter, but mouseenter does not bubble up. Use mouseover when you need the event to bubble to reach other elements.
+- addEventListener expects a callback function, but arguments passed to it are undefined, so input a regular function that contains the desired callback function and the arguments
+![alt](images/13-dom/2023-07-13-07.png)
+- An even better approach is to use the bind method to redefine the "this" keyword for each call of the same function.
+- Bind returns a new function (similar to the above method of putting the desired callback function inside another function).
+- It's not actually possible to directly pass an argument into an event handler function, but the bind method creates a similar effect.
+![alt](images/13-dom/2023-07-13-08.png)
 
+- adding a scroll event listener to the webpage window captures every scroll movement, which is not the most efficient method
+![alt](images/13-dom/2023-07-13-09a.png)
+![alt](images/13-dom/2023-07-13-09b.png)
+- 

@@ -154,12 +154,23 @@
 - Then call the observe method on that observer, passing in the target element (what it's observing).
 ![alt](images/13-dom/2023-07-14-01a.png)
 - The options object takes:
-    - root element (the element that the target element will intersect), 
-
+    - root property: element (the element that the target element should intersect)
+        - a root property of "null" will observe the target element's intersection with the entire viewport
+    - threshold: the percentage (as a decimal) of intersection at which to call the observer callback function (whether scrolling up or down); can have multiple thresholds (in an array)
+        - a threshold of 0 means that the observer will trigger whenever the target element is completely out of view
+- observer callback function can take two parameters:
+    - entries: an array of the threshold entries
+    - observer object
 ![alt](images/13-dom/2023-07-14-01b.png)
-
-
-
+- First IntersectionObserverEntry in console shows pre-intersection (which is why isIntersecting is false for first entry)
+- Second IntersectionObserverEntry in console shows intersectionRatio- the threshold at which the callback function was called (~0.1, aka ~10% intersection of the target element)
+![alt](images/13-dom/2023-07-14-02.png)
+- use built-in "isIntersecting" property on an intersection entry to assign behavior based on whether true or false (in this case, when the entry- the header- is not intersecting, aka when scrolled past the header, then add the sticky class to the navigation
+![alt](images/13-dom/2023-07-14-03.png)
+- additional observer option, rootMargin, a box of specified height (in pixels) that will be applied outside (or inside if negative) of target element (header in this case), so it artifically moves the threshold the additional amount specified (sort of like a css margin)
+![alt](images/13-dom/2023-07-14-04.png)
+- instead of hard-coding the amount for rootMargin, produce it dynamically for different screens- based on height of nav element
+![alt](images/13-dom/2023-07-14-05.png)
 
 
 

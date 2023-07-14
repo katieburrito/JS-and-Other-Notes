@@ -154,7 +154,7 @@
 - Then call the observe method on that observer, passing in the target element (what it's observing).
 ![alt](images/13-dom/2023-07-14-01a.png)
 - The options object takes:
-  -root element (the element that the target element will intersect), 
+  -- root element (the element that the target element will intersect), 
 
 ![alt](images/13-dom/2023-07-14-01b.png)
 

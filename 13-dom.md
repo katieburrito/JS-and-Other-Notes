@@ -146,4 +146,27 @@
 - adding a scroll event listener to the webpage window captures every scroll movement, which is not the most efficient method
 ![alt](images/13-dom/2023-07-13-09a.png)
 ![alt](images/13-dom/2023-07-13-09b.png)
-- 
+
+### 7/14/23
+
+#### Intersection Observer API
+- To start using the intersection observer API, first create a new intersection observer, passing in the callback function and the options
+- Then call the observe method on that observer, passing in the target element (what it's observing).
+![alt](images/13-dom/2023-07-14-01a.png)
+- The options object takes:
+  -root element (the element that the target element will intersect), 
+
+![alt](images/13-dom/2023-07-14-01b.png)
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -172,6 +172,12 @@
 - instead of hard-coding the amount for rootMargin, produce it dynamically for different screens- based on height of nav element
 ![alt](images/13-dom/2023-07-14-05.png)
 
+- For hiding/ revealing elements on the page, best not to hard code the "hidden" class into the html because if js is disabled in user's browser, it will never reveal the hidden info.
+- Instead, default to showing it, and add the hidden class via js to the classList.
+
+When done with an observer for an element, unobserve to prevent the observer from continually running and slowing down the page
+![alt](images/13-dom/2023-07-14-06.png)
+
 
 
 

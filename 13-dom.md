@@ -1,15 +1,15 @@
 # Advanced DOM and Events
 
-### 6/30/23
+#### 6/30/23
 
-#### DOM API Organization Breakdown
+### DOM API Organization Breakdown
 ![DOM API Organization](images/13-dom/dom-api-organization.png)
 
 - To select the entire html document of a webpages, select the documentElement. (Just document alone is not a real dom element, so it is not enough to select.)
 - for documentElement, head, and body, no additional selector is needed
 ![alt](images/13-dom/2023-06-30-8.png)
 
-#### Creating and Inserting Elements
+### Creating and Inserting Elements
 - prepend will add the new element as the first child of the parent element you're adding to
 - append will add as last child of the specified parent element
 - prepend and append can also be used to move elements to first or last child positions (not just insert them)
@@ -18,7 +18,7 @@
 ![alt](images/13-dom/2023-06-30-9.png)
 - before and after insert the new element as a sibling of the specified element
 
-### 7/5/23
+#### 7/5/23
 
 - using the style method to apply new styles to an element in js automatically creates inline styles in the html (rather than a separate style in the css file)
 - to log style info to the console, the style must be applied as in-line (can't pull from stylesheet)
@@ -40,17 +40,17 @@
 - for external links, this might not matter, as the link in the html is usually the same absolute url, but for internal links the two methods can return different results (absolute vs relative)
 ![alt](images/13-dom/2023-07-05-06.png)
 
-### 7/6/23
-#### data/ dataset
+#### 7/6/23
+### data/ dataset
 - Data is a special attribute, so that anything that starts with "data-" as an attribute will be saved in and accessible as "dataset" in the js. Assigned name should be hyphenated in html and camelcased in js (ex: "version-number" for html and "versionNumber" for js).
 ![alt](images/13-dom/2023-07-06-01.png)
 
-#### classes
+### classes
 - Don't use "className" to add classes as this will override all existing classes and only allows to add one class to an element.
 - for manipulating classes on elements, use: "add", "remove", "toggle", or "contains" methods
 ![alt](images/13-dom/2023-07-06-02.png)
 
-#### Dom Measurements and Scrolling
+### Dom Measurements and Scrolling
 - "getBoudingClientRect" on an element provides the DOMRect, which is its coordinates/ measurements in px.
 ![alt](images/13-dom/2023-07-06-03.png)
 - use window "scrollX"/ "scrollY" to get the scroll location of the page
@@ -62,7 +62,7 @@
 - the simpler, more modern (only works in modern browsers) method to apply smooth scroll behavior is to use "scrollIntoView" method applied to the element to which you want to scroll with an input of the scroll behavior as an object, rather than passing scroll to location calculations into the object
 ![alt](images/13-dom/2023-07-06-05.png)
 
-#### DOM Events
+### DOM Events
 - on(event), ex "onmouseenter" can be chained to an element to create an event listener for that element, but the more modern way is to use "addEventListener" with a callback function
 - addEventListener is preferred because:
   - you can add multiple event listeners to the same element
@@ -70,9 +70,9 @@
 ![alt](images/13-dom/2023-07-06-06.png)
 - not recommended: event listeners can also be added directly into the html with the event as an attribute and it's value in quotes for the callback function
 
-### 7/12/23
+#### 7/12/23
 
-#### Event Capturing and Bubbling
+### Event Capturing and Bubbling
 
 - js events have a capturing phase and a bubbling phase
 ![png](images/13-dom/bubbling-capturing.png)
@@ -101,9 +101,9 @@
 ![alt](images/13-dom/2023-07-12-03b.png)
 - Capturing is rarely used and both bubbling and capturing mostly exist for historical reasons (old versions of js).
 
-### 7/13/23
+#### 7/13/23
 
-#### Event Delegation
+### Event Delegation
 - For small projects, it might seem fine to use a forEach loop to attach event listeners to links to handle navigation, but for larger node lists, it is inefficient because it essentially creates a copy of the function for each item in the list. Instead, use event delegation.
 ![alt](images/13-dom/2023-07-13-01a.png)
 - Event delegation relys on events bubbling up, so the listener can be applied to a common parent of all of the links to which you want to add the event listener.
@@ -113,7 +113,7 @@
 - Event delegation is especially important for elements that are not yet on the page when it first loads because event handlers cannot be added to elements that don't exist.
 - For event delegation, be mindful of further children elements that you don't want a reaction to (ex a span inside a button). The workaround here is to use "closest" - see below.
 
-#### DOM Traversing
+### DOM Traversing
 - DOM traversing means selecting an element based on another element.
 - querySelector/ querySelectorAll can also be applied to elements (not just document)
 - childNodes pulls direct children of the element it is called on in more detail (more than just the elements themselves, like querySelector), which is not commonly used
@@ -147,9 +147,9 @@
 ![alt](images/13-dom/2023-07-13-09a.png)
 ![alt](images/13-dom/2023-07-13-09b.png)
 
-### 7/14/23
+#### 7/14/23
 
-#### Intersection Observer API
+### Intersection Observer API
 - To start using the intersection observer API, first create a new intersection observer, passing in the callback function and the options
 - Then call the observe method on that observer, passing in the target element (what it's observing).
 ![alt](images/13-dom/2023-07-14-01a.png)
@@ -178,10 +178,26 @@
 When done with an observer for an element, unobserve to prevent the observer from continually running and slowing down the page
 ![alt](images/13-dom/2023-07-14-06.png)
 
+#### 7/19/23
 
+### Lazy Loading Images
+- default image file version indicated by src (source) attribute - lower resolution for faster loading
+- higher resolution image file version indicated by "data-src" attribute here, only loaded after certain conditions defined in js
+- data-src is stored in special dataset property as custom-made attribute
+![alt](images/13-dom/2023-07-19-01.png)
+- intersection obersever events are firing slightly early because we shifted the entire page down with class "section--hidden" applied to each section (See below, can't see image yet, but intersection observer fired.)
+![alt](images/13-dom/2023-07-19-02.png)
+- after js finds and loads the new, higher-res image, it emits a load event
 
+- by removing the blur immediately on intersection, on slower loading internet connections, the blur will lift before the image source changes, so the poor quality image will be shown, unblurred, for a few seconds before the correct, higher quality image is shown
+- Use network tab in dev tools and change "throttling" to simulate different speeds. Example at high speed, the load event issue cannot be seen, but will still happen on slower speeds, so need to test:
+![alt](images/13-dom/2023-07-19-03a.png)
+- use the load event to time the removal of the image blur also, so that it doesn't expose the lower quality image without the blur, and waits until the higher res image loads first
+![alt](images/13-dom/2023-07-19-03b.png)
 
-
+- load the images slightly before scrolling to their place on the screen by shifting the intersection point of the intersection observer up with a rootMargin
+- stop observing the image intersections after scrolling away from them again
+![alt](images/13-dom/2023-07-19-04.png)
 
 
 

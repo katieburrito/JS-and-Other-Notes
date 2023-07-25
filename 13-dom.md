@@ -199,7 +199,9 @@ When done with an observer for an element, unobserve to prevent the observer fro
 - stop observing the image intersections after scrolling away from them again
 ![alt](images/13-dom/2023-07-19-04.png)
 
+#### 7/25/23
 
+### 
 
 
 

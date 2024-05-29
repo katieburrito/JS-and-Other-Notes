@@ -21,6 +21,10 @@
 -  the ternary operator lets you make a comparison inside the variable, so instead of using an if else statement, it can be used as an expression, without predefining the variable first
 ![alt](images/03-js-fundamentals2/2023-03-31-5.png)
 
+### 5/24/29- added this later:
+- ECMAScript refers to the standard, while Javascript refers to the language in practice.
+
+
 - to set js to strict mode, use strict must be the first line of code in the file, only comments can come before because they'll be ignored, strict mode makes it easier to avoid accidental errors
 ![alt](images/03-js-fundamentals2/2023-03-31-6.png)
 

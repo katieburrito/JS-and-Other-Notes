@@ -23,6 +23,9 @@
 
 ### 5/29/24- added this later - ECMAScript refers to the standard, while Javascript refers to the language in practice.
 
+### 5/29/24: compatibility of older js versions:
+![alt](images/03-js-fundamentals2/2024-05-29-01.png)
+
 - to set js to strict mode, use strict must be the first line of code in the file, only comments can come before because they'll be ignored, strict mode makes it easier to avoid accidental errors
 ![alt](images/03-js-fundamentals2/2023-03-31-6.png)
 

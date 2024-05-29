@@ -122,3 +122,6 @@
 
 - when setting up a switch statement, each case must be followed by a break, and the last case, the default functions like the else statement, combine more than one case by listing them consecutively
 ![alt](images/2-js-fundamentals1/2023-03-29a.png)
+
+### 5/29/24
+- Expressions produce a value (ex: 3 + 4). Statements do not (ex: if, else comparison).

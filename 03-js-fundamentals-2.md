@@ -10,6 +10,8 @@
 - only expressions, not statements, can be inserted into template literals
 ![alt](images/03-js-fundamentals2/2023-03-31-3.png)
 
+### Ternary Operator
+
 - first part is condition followed by question mark then result if condition is met
 ![alt](images/03-js-fundamentals2/2023-03-31-4a.png)
 

@@ -38,7 +38,7 @@
 - an anonymous function can be stored in a variable and used like an expression, while a regular, named function is a declaration and cannot
 ![alt](images/03-js-fundamentals2/2023-03-31-10.png)
 
-- function declarations can be called before they are defined in the code, but function expressions cannot
+- function declarations can be called before they are defined in the code (5/29/24: because of hoisting), but function expressions cannot (5/29/24: Jonas prefers this method because it forces cleaner code with all functions first before they are called)
 ![alt](images/03-js-fundamentals2/2023-03-31-11.png)
 
 - an arrow function works like a function expression, but with even less code to write, can be stored in variable, with parameter in parenthesis and the return after the arrow, arrow functions also have no "this" keyword

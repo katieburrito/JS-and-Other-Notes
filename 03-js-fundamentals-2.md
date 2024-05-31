@@ -68,7 +68,7 @@
 - pop removal method returns the element that was removed, not the length like push or unshift 
 ![alt](images/03-js-fundamentals2/2023-03-31-21.png)
 
-- shift removes first element of array
+- shift removes first element of array and returns that element (not the length)
 ![alt](images/03-js-fundamentals2/2023-03-31-22.png)
 
 - calling the indexOf method on an element not included in an array returns neg 1

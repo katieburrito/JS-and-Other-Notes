@@ -74,6 +74,8 @@
 - calling the indexOf method on an element not included in an array returns neg 1
 ![alt](images/03-js-fundamentals2/2023-03-31-23.png)
 
+- 5/31/24: includes() method returns a boolean of whether or not the array includes the item in parenthesis
+
 ## 4/3/23
 
 - js object ex, w key - aka property- and value pairs, like an array, but with can identify the items contained without just referencing index number, this version of object is called object-literal syntax bc all clearly defined

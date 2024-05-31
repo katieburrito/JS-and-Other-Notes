@@ -93,7 +93,7 @@
 - both dot and square brackets can be used to add key value pairs to an object
 ![alt](images/03-js-fundamentals2/2023-04-03-5.png)
 
-- expression function can be stored as key value pair inside an object, with function name as key property and function body as value
+- expression function (not function declaration, only function expression) can be stored as key value pair inside an object, with function name as key property and function body as value
 ![alt](images/03-js-fundamentals2/2023-04-03-6.png)
 
 - insert arguments to functions within objects by placing the parenthesis outside of the square brackets with the key property function name

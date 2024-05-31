@@ -78,7 +78,7 @@
 
 ## 4/3/23
 
-- js object ex, w key - aka property- and value pairs, like an array, but with can identify the items contained without just referencing index number, this version of object is called object-literal syntax bc all clearly defined
+- js object ex, w key - aka property- and value pairs, like an array, but can identify the items contained without just referencing index number, this version of object is called object-literal syntax bc all clearly defined
 ![alt](images/03-js-fundamentals2/2023-04-03-1.png)
 
 - pull data from an array using either dot followed by key property or square brackets with key property in quotes

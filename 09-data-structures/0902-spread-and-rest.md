@@ -29,6 +29,7 @@
 ![alt](../images/09-data-structures/0902-spread-and-rest/2023-04-13-20.png)
 
 - rest pattern is also three ellipsis dots like spread operator, but with reverse behavior- collects multiple elements and combines into array, called rest because it takes the rest of the remaining elements not explicitly selected
+- (added 6/5/24) takes the "rest" of a the elements remaining in an array and puts into new array- which is why they need to come last on the left side
 ![alt](../images/09-data-structures/0902-spread-and-rest/2023-04-13-21.png)
 
 - assigning spread operator on right to variables declared by rest operator, rest operator collects all elements after last specifically stated, not those before or between, in this case the skipped pasta from main menu

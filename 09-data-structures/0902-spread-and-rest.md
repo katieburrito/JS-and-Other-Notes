@@ -47,3 +47,7 @@
 - spread operator is used where we would otherwise write values separated by a comma, rest operator is used where we would otherwise write variable names separated by a comma
 ![alt](../images/09-data-structures/0902-spread-and-rest/2023-04-13-26.png)
 
+(6/5/24)
+- rest: for variables (left side of assignment operator equals sign)
+- spread: for values (right side of assignment operator equals sign)
+

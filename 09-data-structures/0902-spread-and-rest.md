@@ -13,7 +13,7 @@
 - the spread operator copies the contents of one array into another, which can be helpful for joining two or more arrays
 ![alt](../images/09-data-structures/0902-spread-and-rest/2023-04-13-15.png)
 
-- like arrays, strings, maps, and sets are also iterables, and can take the spread operator (objects are not iterable and cannot take spread operator)
+- like arrays, strings, maps, and sets are also iterables, and can take the spread operator (Objects are not iterable and cannot take spread operator. Also can't use spread operator for js input template literal becasue its not a place that expects comma separated variables.)
 ![alt](../images/09-data-structures/0902-spread-and-rest/2023-04-13-16.png)
 
 - use forward slash to escape the apostrope inside of string, so that js doesn't read it as the end of the string

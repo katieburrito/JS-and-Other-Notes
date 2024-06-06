@@ -2,10 +2,10 @@
 ## Short Circuiting and Logical Assignment
 
 ### 04/13/23
-- short circuit- if first value of OR statement is truthy, the first value is immediately returned, if first value is falsey, they second is returned even if its also falsey
+- short circuit- if first value of OR statement is truthy, the first value is immediately returned, if first (or more) value is falsey, they last is returned even if its also falsey
 ![alt](../images/09-data-structures/0903-short-circuiting-logical-assignment/2023-04-13-27a.png)
 
-- if multiple values, the first truthy value is returned and the rest go unevaluated
+- if multiple values, the first truthy value is returned and the rest go unevaluated- last value is returned if none are truthy
 ![alt](../images/09-data-structures/0903-short-circuiting-logical-assignment/2023-04-13-27b.png)
 
 - instead of using ternary operator, can use short circuiting to define a value

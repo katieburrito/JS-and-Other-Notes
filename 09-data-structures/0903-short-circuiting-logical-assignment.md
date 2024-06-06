@@ -34,5 +34,5 @@
 - logical nullish assignment operator overcomes the falsey zero issue
 ![alt](../images/09-data-structures/0903-short-circuiting-logical-assignment/2023-04-14-1c.png)
 
-- logical or assignment operator assigns a value to a variable when it is falsey- undefined, while logical and assignment operator assigns a value when it is otherwise truthy, aka not undefined
+- logical OR assignment operator assigns a value to a variable when it is falsey- undefined, while logical AND assignment operator assigns a value when it is otherwise truthy, aka not undefined
 ![alt](../images/09-data-structures/0903-short-circuiting-logical-assignment/2023-04-14-1d.png)

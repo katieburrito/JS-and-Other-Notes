@@ -20,7 +20,7 @@
 - and operator short circuiting can replace if statement by checking if a method exists, and then applying that method only if it does, and if it doens't, it won't even try to
 ![alt](../images/09-data-structures/0903-short-circuiting-logical-assignment/2023-04-13-30.png)
 
-- to fix the instance where 0 returns falsey instead of the number 0, use two question marks, aka the nullish coalescing operator, which only considers null and undefined as falsey, but 0 or empty string are truthy
+- to fix the instance where 0 returns falsey instead of the number 0, use two question marks, aka the nullish coalescing operator (instead of OR operator), which only considers null and undefined as falsey, but 0 or empty string are truthy
 ![alt](../images/09-data-structures/0903-short-circuiting-logical-assignment/2023-04-13-31.png)
 
 ### 04/14/23

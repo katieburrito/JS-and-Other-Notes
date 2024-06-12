@@ -57,3 +57,4 @@
 
 - Using destructring  directly inside the for of loop to assign variables to the parts of the object and then use them in the loop
 ![alt](../images/09-data-structures/0904-for-of-and-optional-chaining/2023-04-20-10c.png)
+- 6/12/24: for more complex destructuring like this, it helps to write out the log sentence first, to determine which properties will be used in the destructuring.

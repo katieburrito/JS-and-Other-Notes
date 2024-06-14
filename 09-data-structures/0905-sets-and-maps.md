@@ -21,7 +21,7 @@
 - this doesn't work- sets do not have indexes like arrays, so there is no way to get data out of a set. It's not necesary to get the data like an array because order doesn't matter and there are no duplicates, so the only thing to check is whether an item is in the set or not using the has method.
 ![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-21-4.png)
 
-- sets are iterable and so can be looped throug
+- sets are iterable and so can be looped through
 ![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-21-5.png)
 
 - the main use for a set is to remove duplicate values from an array

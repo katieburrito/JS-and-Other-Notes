@@ -30,6 +30,8 @@
 - because both sets and arrays are iterable, set can be converted to array with spread operator
 ![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-21-7.png)
 
+- 6/14/24: because strings are also iterable, you can use set methods to work with strings too (like size to find the number of unique characters in the string)
+
 - the easiest way to create a map is to create an empty map without passing anything in
 ![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-24-1a.png)
 

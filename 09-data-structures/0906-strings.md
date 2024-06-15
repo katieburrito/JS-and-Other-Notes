@@ -36,23 +36,23 @@
 - use replace method to replace parts of strings, will only replace first occurrence, but can chain together
 ![alt](../images/09-data-structures/0906-strings/2023-04-27-9.png) 
 
-2023-04-27 10 use replace method to replace parts of strings, will only replace first occurrence, can chain together or replaceAll or use a global regular expression
+- use replace method to replace parts of strings, will only replace first occurrence, can chain together or replaceAll or use a global regular expression
 ![alt](../images/09-data-structures/0906-strings/2023-04-27-10.png) 
 
-2023-04-27 11 includes, startsWith, endsWith return booleans for strings
+- includes, startsWith, endsWith return booleans for strings
 ![alt](../images/09-data-structures/0906-strings/2023-04-27-11.png) 
 
-2023-04-27 12a split method allows to break a string into multiple parts based on a divider string, then put the parts into an array
+- split method allows to break a string into multiple parts based on a divider string, then put the parts into an array
 ![alt](../images/09-data-structures/0906-strings/2023-04-27-12a.png) 
 
-2023-04-27 12b join method is opposite of split- merges array items into a string
+- join method is opposite of split- merges array items into a string
 ![alt](../images/09-data-structures/0906-strings/2023-04-27-12b.png) 
 
-2023-04-27 13 Padding a string - adding characters to a string to reach a certain length, 1st input is total string length, 2nd input is what the padding is
+- Padding a string - adding characters to a string to reach a certain length, 1st input is total string length, 2nd input is what the padding is
 ![alt](../images/09-data-structures/0906-strings/2023-04-27-13.png) 
 
-2023-04-27 14 trick to convert a number to a string is to concatenate an empty string to the number
+- trick to convert a number to a string is to concatenate an empty string to the number
 ![alt](../images/09-data-structures/0906-strings/2023-04-27-14.png) 
 
-2023-04-27 15 Repeat method allows to repeat same string multiple times
+- Repeat method allows to repeat same string multiple times
 ![alt](../images/09-data-structures/0906-strings/2023-04-27-15.png) 

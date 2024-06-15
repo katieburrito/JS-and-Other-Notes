@@ -59,7 +59,7 @@
 - the 1,2 array here is not the same object in the heap from when it was set to when it was called
 ![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-24-8a.png)
 
-- for js to understand which array you're referencing, store it in a variable first
+- for js to understand which array you're referencing, store it in a variable first, to refer to the same place in the memory
 ![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-24-8b.png)
 
 - with this technique- storing info in variable first, objects can be used as map keys

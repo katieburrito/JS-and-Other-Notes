@@ -44,3 +44,47 @@
 - chain each key value setting for the map to the previous with period dot between
 ![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-24-3.png)
 
+- use get method with key property passed in
+![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-24-4.png)
+
+- with booleans as the keys, you can access different data in the map, depending on conditions
+![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-24-5.png)
+
+- use has to check if a method contains a certain key and delete with delete method, and size to check how many pairs it contains
+![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-24-6.png)
+
+- clear method deletes the map
+![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-24-7.png)
+
+- the 1,2 array here is not the same object in the heap from when it was set to when it was called
+![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-24-8a.png)
+
+- for js to understand which array you're referencing, store it in a variable first
+![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-24-8b.png)
+
+- with this technique- storing info in variable first, objects can be used as map keys
+![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-24-8c.png)
+
+- instead of using cumbersome set method to populate a map, especially for maps with more data, use an array containing multiple arrays
+![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-25-1.png)
+
+- the array of arrays returned in a map is the same structure as calling object entries- this means objects can easily be converted into maps
+![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-25-2.png)
+
+- convert an object to a map by passing the object into a new map variable
+![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-25-3.png)
+
+- maps are iterable with loops
+![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-25-4.png)
+
+- convert a map to a array with the spread operator
+![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-25-5.png)
+
+- data sources and storage in js
+![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-25-6a.png)
+
+- arrays vs sets
+![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-25-6b.png)
+
+- objects vs maps
+![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-25-6c.png)

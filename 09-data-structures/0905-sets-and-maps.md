@@ -73,6 +73,7 @@
 ![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-25-2.png)
 
 - convert an object to a map by passing the object into a new map variable
+- added 6/14/24: this make it iterable (maps are iterable, objects are not)
 ![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-25-3.png)
 
 - maps are iterable with loops

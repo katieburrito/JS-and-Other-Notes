@@ -63,6 +63,7 @@
 ![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-24-8b.png)
 
 - with this technique- storing info in variable first, objects can be used as map keys
+- can also include parts of document with the query selector in the map (added 6/14/24)
 ![alt](../images/09-data-structures/0905-sets-and-maps/2023-04-24-8c.png)
 
 - instead of using cumbersome set method to populate a map, especially for maps with more data, use an array containing multiple arrays

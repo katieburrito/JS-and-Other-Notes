@@ -12,7 +12,7 @@
 ![primitive vs reference types](images/10-functions/2023-05-08-3b.png)
 - 7/17/24: js does not have passing by reference, only passing by value to functions (even though appears to pass by reference)
 - js functions are first class functions which means they can be treated as values, can be passed to other functions, can be returned from functions, and have their own methods
-- 7/17/24: in js, functions are like another type of object
+- 7/17/24: In js, functions are like another type of object, and because objects are a type of value, so are functions.
 - higher order functions are functions that receive another function as an argument or returns a new functions or both
 - here, addEventListener is the higher-order function because it receives another function as an input, and greet is the callback function, called by addEventListener when the event happens
 ![higher order functions](images/10-functions/2023-05-08-4.png)

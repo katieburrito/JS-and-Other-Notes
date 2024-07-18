@@ -53,6 +53,8 @@
 - in the bind method, like in call method, can pass "this" keyword definition, as well as other argument defaults
 ![bind method arguments](images/10-functions/2023-05-09-3.png)
 
+- 7/18/24: partial application means adding preset parameters (ex: defining a specific flight number) with the bind method in addition to defining the "this" keyword
+
 - to skip adding a this keyword definition with bind method, input null
 ![null input in bind method](images/10-functions/2023-05-09-4.png)
 

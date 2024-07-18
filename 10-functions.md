@@ -29,6 +29,7 @@
 - enhanced object literal sytax to write a method for an object without defining a function
 ![enhanced object literal sytax](images/10-functions/2023-05-08-8b.png)
 - when nested function/method is pulled out of a higher-order function it is like a regular function, which does not have a "this" keyword, so when trying to call it, anything referring to the this keyword is undefined
+- 7/18/24: the "this" keyword is determined and varies based on how the function is actually called
 ![nested function pulled out of higher order function does not have this keyword](images/10-functions/2023-05-08-9a.png)
 - to use the internal method with a this keyword, you must explicitly define it, using either call, apply, or bind function methods
 ![explicitly defining the this keyword](images/10-functions/2023-05-08-9b.png)

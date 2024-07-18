@@ -38,6 +38,7 @@
 ![call method](images/10-functions/2023-05-08-9c.png)
 - apply method does not receive a list of arguments like call does but instead the this keyword reference and then an array
 ![apply method](images/10-functions/2023-05-08-9d.png)
+- 7/18/24: apply method is less used in modern js because can use call method with spread operator instead
 
 ## 5/9/23
 - call method also takes array as input using the spread operator

@@ -34,6 +34,7 @@
 - to use the internal method with a this keyword, you must explicitly define it, using either call, apply, or bind function methods
 ![explicitly defining the this keyword](images/10-functions/2023-05-08-9b.png)
 - in the call method, the first parameter is what the "this" key word should point to, followed by the other parameters the method requires, this technique allows you to use a method from inside a function with a different function
+- 7/18/24: Using the call method, you're not calling the function yourself. Instead, you call the call method, which calls the (book) function with the this keyword set to the first argument, in this case "eurowings." This allows us to manually and explicitly set the this keyword definition for any function that we want to call. Other arguments passed are the arguments of the original function.
 ![call method](images/10-functions/2023-05-08-9c.png)
 - apply method does not receive a list of arguments like call does but instead the this keyword reference and then an array
 ![apply method](images/10-functions/2023-05-08-9d.png)

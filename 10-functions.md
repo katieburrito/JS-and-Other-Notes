@@ -19,7 +19,7 @@
 ![higher order functions](images/10-functions/2023-05-08-4.png)
 - functions also have their own properties, such as name, which connects to the name of the function
 ![function properties](images/10-functions/2023-05-08-5.png)
-- 7/18/24: abstration is like the higher order function delegating to  the callback functions
+- 7/18/24: abstration is like the higher order function delegating to the lower level/callback functions
 - a function returned inside a higher order function can then be stored in a new varibale when it is called
 ![store returned function as variable](images/10-functions/2023-05-08-6.png)
 - when two separate arguments are passed to a higher-order function, the first argument is passed to the called function, and the second argument is passed to the return function it contains

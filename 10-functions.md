@@ -44,7 +44,7 @@
 - call method also takes array as input using the spread operator
 ![call method with array input](images/10-functions/2023-05-09-1.png)
 
-- bind allows to manually set this keyword meaning in the input, but bind does not immediately call the function, but returns a new function where the this keyword is bound
+- bind allows to manually set this keyword meaning in the input, but bind does not immediately call the function. Instead returns a new function where the this keyword is bound
 ![bind method](images/10-functions/2023-05-09-2a.png)
 
 - after setting the bind method, you can use an internal function that has been pulled out of a higher order function as if it has its own this keyword
